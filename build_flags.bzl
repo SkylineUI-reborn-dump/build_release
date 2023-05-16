@@ -13,10 +13,15 @@
 # limitations under the License.
 
 # This file defines the build system flags that can be set based on the
-# release configuration for AOSP.  If at all possible, use aconfig flags
-# instead. This is for things that must be decided at compile time.
+# release configuration.  If at all possible, use aconfig flags instead.
+# This is for things that must be decided at compile time.
 
-# Entries should be alphabetical by flag name.
+# Flags should be alphabetical by flag name.
 
-$(call declare-build-flag, all, RELEASE_DEVICE_CONFIG_VALUE_SETS,)
-
+flags = [
+    struct(
+        name = "RELEASE_DEVICE_CONFIG_VALUE_SETS",
+        partitions = ["all"],
+        default = [],
+    ),
+]

@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cae08a9_de5571ec",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2023-06-08T22:36:39Z",
+      "side": 1,
+      "message": "I believe this specifies which `device_config_value_set` module to use. The `device_config_value_set` defines the runtime flags to enable as opposed to the build time flags I think. Will document in a followup after confirming with Joe.",
+      "parentUuid": "988fb2ba_d71c719a",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 23,
+        "endChar": 48
+      },
+      "revId": "abee62674ee793db9918051032b9cdc6ab6c5d8b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d7471c43_e3cba11d",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-06-08T05:00:33Z",
       "side": 1,
       "message": "nit: Should we enforce a doc parameter to make sure every flag is documented?",
+      "range": {
+        "startLine": 22,
+        "startChar": 4,
+        "endLine": 26,
+        "endChar": 6
+      },
+      "revId": "abee62674ee793db9918051032b9cdc6ab6c5d8b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77ebfacd_b4d8cdae",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2023-06-08T22:36:39Z",
+      "side": 1,
+      "message": "Sounds like a good idea to me, but let me do that in a followup cl to keep this one focused on just the starlark transition.",
+      "parentUuid": "d7471c43_e3cba11d",
       "range": {
         "startLine": 22,
         "startChar": 4,

@@ -48,6 +48,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4450d3ee_ee652cd0",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1514900
+      },
+      "writtenOn": "2023-06-09T00:10:13Z",
+      "side": 1,
+      "message": "Thanks for the clarification.",
+      "parentUuid": "2cae08a9_de5571ec",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 23,
+        "endChar": 48
+      },
+      "revId": "abee62674ee793db9918051032b9cdc6ab6c5d8b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d7471c43_e3cba11d",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "Sounds like a good idea to me, but let me do that in a followup cl to keep this one focused on just the starlark transition.",
       "parentUuid": "d7471c43_e3cba11d",
+      "range": {
+        "startLine": 22,
+        "startChar": 4,
+        "endLine": 26,
+        "endChar": 6
+      },
+      "revId": "abee62674ee793db9918051032b9cdc6ab6c5d8b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a24078d_2087d21a",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1514900
+      },
+      "writtenOn": "2023-06-09T00:10:13Z",
+      "side": 1,
+      "message": "Ack.",
+      "parentUuid": "77ebfacd_b4d8cdae",
       "range": {
         "startLine": 22,
         "startChar": 4,

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e86519a1_bc847768",
+        "filename": "aconfig/trunk_food/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-06-21T22:22:53Z",
+      "side": 0,
+      "message": "note this is git\u0027s mv algorithm not picking the right base for the file. trunk_food is the correct value for this file.",
+      "range": {
+        "startLine": 16,
+        "startChar": 35,
+        "endLine": 16,
+        "endChar": 39
+      },
+      "revId": "bf8fb1012dd18c13a31f4e6f2bac650b3d2a6340",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

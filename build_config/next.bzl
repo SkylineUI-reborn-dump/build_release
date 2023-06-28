@@ -12,11 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This file defines the build system flags that can be set based on the
-# release configuration for AOSP.  If at all possible, use aconfig flags
-# instead. This is for things that must be decided at compile time.
+#
+# Build system flag configuration for `lunch <product>-next-<variant>` builds
+#                                                      ^^^^
+# See go/build-system-flags
+#
 
-# Entries should be alphabetical by flag name.
+load("//build/make/core/release_config.bzl", "value")
 
-$(call declare-build-flag, all, RELEASE_DEVICE_CONFIG_VALUE_SETS,)
-
+# Flags should be alphabetical by flag name to reduce merge conflifcts
+values = [
+    value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-next"),
+    value("RELEASE_PLATFORM_VERSION", "UP1A"),
+]

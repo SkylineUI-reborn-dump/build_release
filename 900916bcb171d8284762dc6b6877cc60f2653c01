@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "820bbbf3_e9b8edb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000445
+      },
+      "writtenOn": "2023-07-06T20:19:17Z",
+      "side": 1,
+      "message": "I can\u0027t CR+2",
+      "revId": "900916bcb171d8284762dc6b6877cc60f2653c01",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -16,6 +16,23 @@
       "message": "I can\u0027t CR+2",
       "revId": "900916bcb171d8284762dc6b6877cc60f2653c01",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c6f6c61_1c00b97c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-07-08T00:14:00Z",
+      "side": 1,
+      "message": "aosp-main-with-phone builds depend on ag/23900600",
+      "revId": "900916bcb171d8284762dc6b6877cc60f2653c01",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

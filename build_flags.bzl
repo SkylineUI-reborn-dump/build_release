@@ -35,4 +35,10 @@ flags = [
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.
     flag("RELEASE_PLATFORM_VERSION", ALL, "VP1A"),
+
+    # Enables the use of the unfrozen versions of AIDL interfaces.
+    # When this is `disabled` the libraries of the latest unfrozen version of a
+    # vintf stable interface will behave like the last frozen version.
+    # When this is `enabled` the libraries behave like the lastest unfrozen version.
+    flag("RELEASE_AIDL_USE_UNFROZEN", ALL, "disabled"),
 ]

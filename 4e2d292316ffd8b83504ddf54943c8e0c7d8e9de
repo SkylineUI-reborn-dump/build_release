@@ -33,6 +33,24 @@
       "message": "Please alphabetize this file, but other than that lgtm.",
       "revId": "4e2d292316ffd8b83504ddf54943c8e0c7d8e9de",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b47b338_03da1289",
+        "filename": "build_flags.bzl",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2023-07-25T18:13:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cabea952_62ab0ddc",
+      "revId": "4e2d292316ffd8b83504ddf54943c8e0c7d8e9de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

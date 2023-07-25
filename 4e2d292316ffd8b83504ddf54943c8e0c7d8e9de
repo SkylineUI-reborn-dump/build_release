@@ -16,6 +16,23 @@
       "message": "Hey @joeo@google.com and @jham@google.com. I hope the comments and the commit messages explain our intent well enough, but please feel free to ask any questions you have and give any feedback!\n\nThis CL with `True` makes this topic basically a no-op. The next CL (different topic) changes the value to `False` for `next` where we basically have a huge clamp on all of the unfrozen interfaces so they behave like the last frozen version.\n\n1) question: What kinds of tests do we have running against the `next` config right now in presubmits? I don\u0027t see any of them in my test results.",
       "revId": "4e2d292316ffd8b83504ddf54943c8e0c7d8e9de",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cabea952_62ab0ddc",
+        "filename": "build_flags.bzl",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-07-25T18:07:39Z",
+      "side": 1,
+      "message": "Please alphabetize this file, but other than that lgtm.",
+      "revId": "4e2d292316ffd8b83504ddf54943c8e0c7d8e9de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -36,6 +36,43 @@
       "message": "File is not formatted. Run `buildifier build_flags.bzl` to format the file, or apply the suggested fix.",
       "revId": "7a21fc925d88dea6f04298598702317bd1d41e3d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000049728504",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2677204?revision\u003d4",
+      "fixSuggestions": [
+        {
+          "fixId": "0d26f465_65d90e8d",
+          "description": "Buildifier Suggestion",
+          "replacements": [
+            {
+              "path": "build_flags.bzl",
+              "range": {
+                "startLine": 40,
+                "startChar": 0,
+                "endLine": 41,
+                "endChar": 0
+              },
+              "replacement": "\n"
+            }
+          ]
+        }
+      ],
+      "key": {
+        "uuid": "c3a6bd02_bca55d8c",
+        "filename": "build_flags.bzl",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-07-27T08:38:51Z",
+      "side": 1,
+      "message": "File is not formatted. Run `buildifier build_flags.bzl` to format the file, or apply the suggested fix.",
+      "revId": "7a21fc925d88dea6f04298598702317bd1d41e3d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

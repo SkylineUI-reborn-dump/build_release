@@ -36,7 +36,7 @@ flags = [
     # stable interface will behave like the last frozen version.
     # When this is `True` the libraries behave like the lastest unfrozen version like
     # they always have.
-    flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
+    flag("RELEASE_AIDL_USE_UNFROZEN", ALL, False),
 
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having

@@ -36,7 +36,7 @@ flags = [
     # stable interface will behave like the last frozen version.
     # When this is `True` the libraries behave like the lastest unfrozen version like
     # they always have.
-    flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
+    flag("RELEASE_AIDL_USE_UNFROZEN", ALL, False),
 
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),

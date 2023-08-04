@@ -31,6 +31,16 @@ flags = [
     # The aconfig_value_set soong module to use to set aconfig values.
     flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None),
 
+    # Enables the use of the unfrozen versions of AIDL interfaces.
+    # When this is `False` the libraries of the latest unfrozen version of a
+    # stable interface will behave like the last frozen version.
+    # When this is `True` the libraries behave like the lastest unfrozen version like
+    # they always have.
+    flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
+
+    # The behavior for the tree wrt building mainline modules or using prebuilts
+    flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),
+
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69131e00_3ceb47dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2023-08-10T23:17:02Z",
+      "side": 1,
+      "message": "This is more likely the other cultprit CL. The error message in the test says: `\u0027INSTALL_FAILED_CONFLICTING_PROVIDER: Scanning Failed.: Can\u0027t install because provider name android.app.stubs.androidx-startup (in package com.android.app1)` and the other culprit CL is adding an androidx package: `[renikindi] ag/0 platform/prebuilts/sdk Import AndroidX from build 10621088`\n\nAlso there should be a bug for those empty CL numbers 😄",
+      "revId": "014048ebca09837c6c733a576658e1924326f7c7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

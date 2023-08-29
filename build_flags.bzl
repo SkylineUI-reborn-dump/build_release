@@ -51,4 +51,7 @@ flags = [
 
     # Set to true when the current platform version should be marked as REL.
     flag("RELEASE_PLATFORM_VERSION_CODENAME_REL", ALL, ""),
+
+    # feature flag for removing legacy emoji font from system image.
+    flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, "false"),
 ]

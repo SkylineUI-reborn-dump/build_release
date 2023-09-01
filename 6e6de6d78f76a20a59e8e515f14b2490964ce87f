@@ -80,6 +80,30 @@
       },
       "revId": "6e6de6d78f76a20a59e8e515f14b2490964ce87f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "040eed91_aab68017",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-09-01T18:04:21Z",
+      "side": 1,
+      "message": "All flags should be in this file.",
+      "parentUuid": "69151a40_33bb6f43",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 73
+      },
+      "revId": "6e6de6d78f76a20a59e8e515f14b2490964ce87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

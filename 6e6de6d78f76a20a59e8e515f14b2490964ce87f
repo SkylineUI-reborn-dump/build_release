@@ -18,6 +18,23 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "04e28454_75c6145c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2023-09-01T12:54:03Z",
+      "side": 1,
+      "message": "Joe, can you please review this patch?",
+      "revId": "6e6de6d78f76a20a59e8e515f14b2490964ce87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26e0921c_71c64f6c",
@@ -31,6 +48,30 @@
       "writtenOn": "2023-09-01T08:46:56Z",
       "side": 1,
       "message": "Would it make sense to put all AVF flags in a separate file?",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 73
+      },
+      "revId": "6e6de6d78f76a20a59e8e515f14b2490964ce87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69151a40_33bb6f43",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2023-09-01T12:54:03Z",
+      "side": 1,
+      "message": "Will do this in a separate change",
+      "parentUuid": "26e0921c_71c64f6c",
       "range": {
         "startLine": 43,
         "startChar": 0,

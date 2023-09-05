@@ -48,6 +48,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b351cef_86c1013f",
+        "filename": "build_flags.bzl",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2023-09-05T13:33:38Z",
+      "side": 1,
+      "message": "Implemented in aosp/2740233",
+      "parentUuid": "42ffb913_150c118b",
+      "range": {
+        "startLine": 48,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 27
+      },
+      "revId": "44e45a0816357e89463733f891d6d0b26a65e3ad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dd66e6d8_e44b03e9",

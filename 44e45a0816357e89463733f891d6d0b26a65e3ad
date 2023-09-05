@@ -22,6 +22,30 @@
       },
       "revId": "44e45a0816357e89463733f891d6d0b26a65e3ad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ee1b59b_cbe74ab6",
+        "filename": "build_flags.bzl",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2023-09-05T12:51:02Z",
+      "side": 1,
+      "message": "This is a default value of a flag",
+      "parentUuid": "dd66e6d8_e44b03e9",
+      "range": {
+        "startLine": 50,
+        "startChar": 54,
+        "endLine": 50,
+        "endChar": 59
+      },
+      "revId": "44e45a0816357e89463733f891d6d0b26a65e3ad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

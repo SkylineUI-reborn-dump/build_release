@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b6ba0c11_4974cf44",
+        "filename": "build_flags.bzl",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1059815
+      },
+      "writtenOn": "2023-09-05T12:53:13Z",
+      "side": 1,
+      "message": "Can we enforce this somewhere? Build-time, preferably.",
+      "range": {
+        "startLine": 48,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 27
+      },
+      "revId": "44e45a0816357e89463733f891d6d0b26a65e3ad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dd66e6d8_e44b03e9",
         "filename": "build_flags.bzl",
         "patchSetId": 2

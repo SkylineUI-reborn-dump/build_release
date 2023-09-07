@@ -52,6 +52,9 @@ flags = [
     # Enables loading vendor modules (both kernel & userspace) in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_VENDOR_MODULES", ALL, False),
 
+    # Sample flag
+    flag("RELEASE_AVF_SAMPLE_FLAG", ALL, False),
+
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),
 

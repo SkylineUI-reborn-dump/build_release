@@ -1,0 +1,41 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000053129122",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2744200?revision\u003d1",
+      "fixSuggestions": [
+        {
+          "fixId": "feba8d08_1b97506c",
+          "description": "Buildifier Suggestion",
+          "replacements": [
+            {
+              "path": "build_flags.bzl",
+              "range": {
+                "startLine": 62,
+                "startChar": 0,
+                "endLine": 63,
+                "endChar": 0
+              },
+              "replacement": "    # TODO(joeo): Remove the default here. Maybe for platform builds not having\n"
+            }
+          ]
+        }
+      ],
+      "key": {
+        "uuid": "608ef13c_0d12ae56",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-09-08T04:39:32Z",
+      "side": 1,
+      "message": "File is not formatted. Run `buildifier build_flags.bzl` to format the file, or apply the suggested fix.",
+      "revId": "409c6b0ec72430ed364f759681759ec9f7a18d38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

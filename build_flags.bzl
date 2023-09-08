@@ -49,6 +49,9 @@ flags = [
     # must also be enabled.
     flag("RELEASE_AVF_ENABLE_DEVICE_ASSIGNMENT", ALL, False),
 
+    # Enables pVM remote attestation in Microdroid VM.
+    flag("RELEASE_AVF_ENABLE_REMOTE_ATTESTATION", ALL, False),
+
     # Enables loading vendor modules (both kernel & userspace) in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_VENDOR_MODULES", ALL, False),
 

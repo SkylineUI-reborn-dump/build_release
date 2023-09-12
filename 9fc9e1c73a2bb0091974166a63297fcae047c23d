@@ -46,6 +46,53 @@
       "message": "File is not formatted. Run `buildifier build_flags.bzl` to format the file, or apply the suggested fix.",
       "revId": "9fc9e1c73a2bb0091974166a63297fcae047c23d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000053419397",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2747934?revision\u003d1",
+      "fixSuggestions": [
+        {
+          "fixId": "7276ad73_e01adca2",
+          "description": "Buildifier Suggestion",
+          "replacements": [
+            {
+              "path": "build_flags.bzl",
+              "range": {
+                "startLine": 75,
+                "startChar": 0,
+                "endLine": 76,
+                "endChar": 0
+              },
+              "replacement": "    # The PLATFORM_VNDK_VERSION will be set to this version when the\n"
+            },
+            {
+              "path": "build_flags.bzl",
+              "range": {
+                "startLine": 78,
+                "startChar": 0,
+                "endLine": 79,
+                "endChar": 0
+              },
+              "replacement": "    flag(\"RELEASE_PLATFORM_VNDK_VERSION\", ALL, \"\"),\n"
+            }
+          ]
+        }
+      ],
+      "key": {
+        "uuid": "b98f8989_e73c8eba",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-09-12T07:59:36Z",
+      "side": 1,
+      "message": "File is not formatted. Run `buildifier build_flags.bzl` to format the file, or apply the suggested fix.",
+      "revId": "9fc9e1c73a2bb0091974166a63297fcae047c23d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

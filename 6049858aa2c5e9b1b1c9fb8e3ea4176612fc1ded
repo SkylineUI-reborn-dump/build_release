@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0670de6c_420c0ae3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2023-09-13T17:26:48Z",
+      "side": 1,
+      "message": "It took me a little bit of digging to see that next.bzl was the only file that overrode the default value.\n\nMaybe reword the commit summary to: `Use mainline prebuilts by default`",
+      "revId": "6049858aa2c5e9b1b1c9fb8e3ea4176612fc1ded",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "389da1c0_e7ed33b1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2023-09-13T17:26:48Z",
+      "side": 1,
+      "message": "minor nit: gerrit displays the go link with the comma as part of the link (404).  Please drop the comma (possibly rewording so that it shouldn\u0027t be there at all).",
+      "revId": "6049858aa2c5e9b1b1c9fb8e3ea4176612fc1ded",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

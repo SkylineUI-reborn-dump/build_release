@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e0379d9_80f80c55",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1951966
+      },
+      "writtenOn": "2023-09-14T07:28:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0670de6c_420c0ae3",
+      "revId": "6049858aa2c5e9b1b1c9fb8e3ea4176612fc1ded",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "389da1c0_e7ed33b1",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-09-13T17:26:48Z",
       "side": 1,
       "message": "minor nit: gerrit displays the go link with the comma as part of the link (404).  Please drop the comma (possibly rewording so that it shouldn\u0027t be there at all).",
+      "revId": "6049858aa2c5e9b1b1c9fb8e3ea4176612fc1ded",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dde7236_e1badd45",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1951966
+      },
+      "writtenOn": "2023-09-14T07:28:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "389da1c0_e7ed33b1",
       "revId": "6049858aa2c5e9b1b1c9fb8e3ea4176612fc1ded",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }

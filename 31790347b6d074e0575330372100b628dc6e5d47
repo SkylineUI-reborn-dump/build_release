@@ -22,6 +22,30 @@
       },
       "revId": "31790347b6d074e0575330372100b628dc6e5d47",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e13d0c6_18266701",
+        "filename": "build_config/trunk.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1124746
+      },
+      "writtenOn": "2023-10-02T17:24:19Z",
+      "side": 1,
+      "message": "soong has the logic to handle both format: https://source.corp.google.com/h/android/platform/superproject/main/+/main:build/soong/android/config.go;l\u003d201;bpv\u003d0",
+      "parentUuid": "f99b2457_aae402bc",
+      "range": {
+        "startLine": 25,
+        "startChar": 41,
+        "endLine": 25,
+        "endChar": 71
+      },
+      "revId": "31790347b6d074e0575330372100b628dc6e5d47",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

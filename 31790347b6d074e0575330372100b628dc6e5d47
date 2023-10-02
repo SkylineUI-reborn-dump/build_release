@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f99b2457_aae402bc",
+        "filename": "build_config/trunk.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-10-02T17:06:06Z",
+      "side": 1,
+      "message": "How does soong handle this?",
+      "range": {
+        "startLine": 25,
+        "startChar": 41,
+        "endLine": 25,
+        "endChar": 71
+      },
+      "revId": "31790347b6d074e0575330372100b628dc6e5d47",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

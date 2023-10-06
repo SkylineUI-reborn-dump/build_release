@@ -25,6 +25,32 @@
       },
       "revId": "e92d65b0021a057cb1ef722f1e816698d3b47fd7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055519302",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2775158?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "0c8f821e_996eb4e4",
+        "filename": "build_config/trunk_staging.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T11:45:29Z",
+      "side": 1,
+      "message": "The file has no module docstring.\nA module docstring is a string literal (not a comment) which should be the first statement of a file (it may follow comment lines). http://go/buildifier-warnings#module-docstring",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 1
+      },
+      "revId": "e92d65b0021a057cb1ef722f1e816698d3b47fd7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

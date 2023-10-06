@@ -32,6 +32,32 @@
       "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
       "fixSuggestions": [],
       "key": {
+        "uuid": "ea7192c2_995e699e",
+        "filename": "build_config/next.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T05:45:53Z",
+      "side": 1,
+      "message": "The file has no module docstring.\nA module docstring is a string literal (not a comment) which should be the first statement of a file (it may follow comment lines). http://go/buildifier-warnings#module-docstring",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 1
+      },
+      "revId": "8d09bdb0fad09b0a06904383d72e405633db737d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055499030",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
         "uuid": "27e9c4d3_274449d3",
         "filename": "build_flags.bzl",
         "patchSetId": 1
@@ -41,6 +67,32 @@
         "id": 1757831
       },
       "writtenOn": "2023-10-06T05:45:40Z",
+      "side": 1,
+      "message": "The file has no module docstring.\nA module docstring is a string literal (not a comment) which should be the first statement of a file (it may follow comment lines). http://go/buildifier-warnings#module-docstring",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 1
+      },
+      "revId": "8d09bdb0fad09b0a06904383d72e405633db737d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055499030",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f8774077_fed626e4",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T05:45:53Z",
       "side": 1,
       "message": "The file has no module docstring.\nA module docstring is a string literal (not a comment) which should be the first statement of a file (it may follow comment lines). http://go/buildifier-warnings#module-docstring",
       "range": {
@@ -84,6 +136,32 @@
       "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
       "fixSuggestions": [],
       "key": {
+        "uuid": "a4b61432_47b6316f",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T05:45:53Z",
+      "side": 1,
+      "message": "Loaded symbol \"PRODUCT\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _PRODUCT \u003d \"PRODUCT\", ...)\n    PRODUCT \u003d _PRODUCT\n http://go/buildifier-warnings#load",
+      "range": {
+        "startLine": 22,
+        "startChar": 5,
+        "endLine": 22,
+        "endChar": 12
+      },
+      "revId": "8d09bdb0fad09b0a06904383d72e405633db737d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055499030",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
         "uuid": "bc5c0f6e_e8966258",
         "filename": "build_flags.bzl",
         "patchSetId": 1
@@ -110,6 +188,32 @@
       "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
       "fixSuggestions": [],
       "key": {
+        "uuid": "f8acbb41_b8d88516",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T05:45:53Z",
+      "side": 1,
+      "message": "Loaded symbol \"SYSTEM_EXT\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _SYSTEM_EXT \u003d \"SYSTEM_EXT\", ...)\n    SYSTEM_EXT \u003d _SYSTEM_EXT\n http://go/buildifier-warnings#load",
+      "range": {
+        "startLine": 24,
+        "startChar": 5,
+        "endLine": 24,
+        "endChar": 15
+      },
+      "revId": "8d09bdb0fad09b0a06904383d72e405633db737d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055499030",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
         "uuid": "3e361275_49b24b6a",
         "filename": "build_flags.bzl",
         "patchSetId": 1
@@ -119,6 +223,32 @@
         "id": 1757831
       },
       "writtenOn": "2023-10-06T05:45:40Z",
+      "side": 1,
+      "message": "Loaded symbol \"VENDOR\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _VENDOR \u003d \"VENDOR\", ...)\n    VENDOR \u003d _VENDOR\n http://go/buildifier-warnings#load",
+      "range": {
+        "startLine": 25,
+        "startChar": 5,
+        "endLine": 25,
+        "endChar": 11
+      },
+      "revId": "8d09bdb0fad09b0a06904383d72e405633db737d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055499030",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2776791?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "50b7ab2e_ecd7cbcd",
+        "filename": "build_flags.bzl",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T05:45:53Z",
       "side": 1,
       "message": "Loaded symbol \"VENDOR\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _VENDOR \u003d \"VENDOR\", ...)\n    VENDOR \u003d _VENDOR\n http://go/buildifier-warnings#load",
       "range": {

@@ -58,6 +58,32 @@
       "url": "https://android-build.googleplex.com/builds/treetop/android-review/2758625?revision\u003d3",
       "fixSuggestions": [],
       "key": {
+        "uuid": "0384e747_e7773bbd",
+        "filename": "build_flags.bzl",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T17:17:39Z",
+      "side": 1,
+      "message": "The file has no module docstring.\nA module docstring is a string literal (not a comment) which should be the first statement of a file (it may follow comment lines). http://go/buildifier-warnings#module-docstring",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 1
+      },
+      "revId": "f08626c634cea40fc91b323dad4be19cf0251719",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055369259",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2758625?revision\u003d3",
+      "fixSuggestions": [],
+      "key": {
         "uuid": "09bbeac7_9f1e7899",
         "filename": "build_flags.bzl",
         "patchSetId": 3
@@ -93,6 +119,32 @@
         "id": 1757831
       },
       "writtenOn": "2023-10-05T00:53:28Z",
+      "side": 1,
+      "message": "Loaded symbol \"PRODUCT\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _PRODUCT \u003d \"PRODUCT\", ...)\n    PRODUCT \u003d _PRODUCT\n http://go/buildifier-warnings#load",
+      "range": {
+        "startLine": 22,
+        "startChar": 5,
+        "endLine": 22,
+        "endChar": 12
+      },
+      "revId": "f08626c634cea40fc91b323dad4be19cf0251719",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055369259",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2758625?revision\u003d3",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "b35deda5_760732a0",
+        "filename": "build_flags.bzl",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T17:17:39Z",
       "side": 1,
       "message": "Loaded symbol \"PRODUCT\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _PRODUCT \u003d \"PRODUCT\", ...)\n    PRODUCT \u003d _PRODUCT\n http://go/buildifier-warnings#load",
       "range": {
@@ -162,6 +214,32 @@
       "url": "https://android-build.googleplex.com/builds/treetop/android-review/2758625?revision\u003d3",
       "fixSuggestions": [],
       "key": {
+        "uuid": "0ea8617f_edf29c48",
+        "filename": "build_flags.bzl",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T17:17:39Z",
+      "side": 1,
+      "message": "Loaded symbol \"SYSTEM_EXT\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _SYSTEM_EXT \u003d \"SYSTEM_EXT\", ...)\n    SYSTEM_EXT \u003d _SYSTEM_EXT\n http://go/buildifier-warnings#load",
+      "range": {
+        "startLine": 24,
+        "startChar": 5,
+        "endLine": 24,
+        "endChar": 15
+      },
+      "revId": "f08626c634cea40fc91b323dad4be19cf0251719",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055369259",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2758625?revision\u003d3",
+      "fixSuggestions": [],
+      "key": {
         "uuid": "59f91861_1d8d7744",
         "filename": "build_flags.bzl",
         "patchSetId": 3
@@ -197,6 +275,32 @@
         "id": 1757831
       },
       "writtenOn": "2023-10-05T00:53:28Z",
+      "side": 1,
+      "message": "Loaded symbol \"VENDOR\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _VENDOR \u003d \"VENDOR\", ...)\n    VENDOR \u003d _VENDOR\n http://go/buildifier-warnings#load",
+      "range": {
+        "startLine": 25,
+        "startChar": 5,
+        "endLine": 25,
+        "endChar": 11
+      },
+      "revId": "f08626c634cea40fc91b323dad4be19cf0251719",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000055369259",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/2758625?revision\u003d3",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "2759d337_5f192a9c",
+        "filename": "build_flags.bzl",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2023-10-06T17:17:39Z",
       "side": 1,
       "message": "Loaded symbol \"VENDOR\" is unused. Please remove it.\nTo disable the warning, add \u0027@unused\u0027 in a comment.\nIf you want to re-export a symbol, use the following pattern:\n\n    load(..., _VENDOR \u003d \"VENDOR\", ...)\n    VENDOR \u003d _VENDOR\n http://go/buildifier-warnings#load",
       "range": {

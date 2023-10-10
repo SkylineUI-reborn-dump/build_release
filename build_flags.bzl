@@ -1,3 +1,6 @@
+"""
+Build flag definitions.
+"""
 # Copyright (C) 2023 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,10 +22,10 @@
 load(
     "//build/make/core/release_config.bzl",
     "ALL",
-    "PRODUCT",
-    "SYSTEM",
-    "SYSTEM_EXT",
-    "VENDOR",
+    "PRODUCT",  # buildifier: disable=load
+    "SYSTEM",  # buildifier: disable=load
+    "SYSTEM_EXT",  # buildifier: disable=load
+    "VENDOR",  # buildifier: disable=load
     "flag",
 )
 
@@ -68,7 +71,7 @@ flags = [
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False),
 
     # The behavior for the tree wrt building mainline modules or using prebuilts
-    flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, False),
+    flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, True),
 
     # Enables flagged apis to be exposed.
     flag("RELEASE_EXPOSE_FLAGGED_API", ALL, True),
@@ -91,4 +94,7 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, "false"),
+
+    # feature flag to deprecate VNDK
+    flag("RELEASE_DEPRECATE_VNDK", ALL, False),
 ]

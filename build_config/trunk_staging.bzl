@@ -1,3 +1,6 @@
+"""
+Build flag values for release config trunk_staging.
+"""
 # Copyright (C) 2023 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,6 +29,7 @@ values = [
     value("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", True),
     value("RELEASE_AVF_ENABLE_DEVICE_ASSIGNMENT", True),
     value("RELEASE_AVF_ENABLE_DICE_CHANGES", True),
+    value("RELEASE_AVF_ENABLE_LLPVM_CHANGES", True),
     value("RELEASE_AVF_ENABLE_MULTI_TENANT_MICRODROID_VM", True),
     value("RELEASE_AVF_ENABLE_REMOTE_ATTESTATION", True),
     value("RELEASE_AVF_ENABLE_VENDOR_MODULES", True),

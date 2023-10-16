@@ -1,3 +1,6 @@
+"""
+Build flag values for release config trunk_food.
+"""
 # Copyright (C) 2023 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,5 +25,5 @@ load("//build/make/core/release_config.bzl", "value")
 
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 values = [
-    value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-aosp-trunk_food"),
+    value("RELEASE_ACONFIG_VALUE_SETS", "//build/release/aconfig/trunk_food:aconfig_value_set-aosp-trunk_food"),
 ]

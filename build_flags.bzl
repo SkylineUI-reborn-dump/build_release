@@ -93,7 +93,7 @@ flags = [
     flag("RELEASE_PLATFORM_VNDK_VERSION", ALL, ""),
 
     # feature flag for removing legacy emoji font from system image.
-    flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, "false"),
+    flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
 
     # feature flag to deprecate VNDK
     flag("RELEASE_DEPRECATE_VNDK", ALL, False),

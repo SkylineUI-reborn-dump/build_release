@@ -73,11 +73,17 @@ flags = [
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, True),
 
+    # feature flag to deprecate VNDK
+    flag("RELEASE_DEPRECATE_VNDK", ALL, False),
+
     # Enables flagged apis to be exposed.
     flag("RELEASE_EXPOSE_FLAGGED_API", ALL, True),
 
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
+
+    # This flag will control the rollout of new versions of the SoundPicker app.
+    flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
@@ -94,7 +100,4 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, "false"),
-
-    # feature flag to deprecate VNDK
-    flag("RELEASE_DEPRECATE_VNDK", ALL, False),
 ]

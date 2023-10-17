@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22d03c44_a687e5ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1413436
+      },
+      "writtenOn": "2023-10-17T01:46:27Z",
+      "side": 1,
+      "message": "This is cherry-pick from internal gerrit.",
+      "revId": "af54dbaef0f00b1fdfa61633e50e0c5259ae9ef0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -12,11 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+ACONFIG_VALUES_LIST = [
+    "aconfig_values-aosp-trunk-all",
+]
+
 aconfig_value_set {
     name: "aconfig_value_set-aosp-trunk",
-    values: [
-        "aconfig_values-aosp-trunk-all"
-    ]
+    values: ACONFIG_VALUES_LIST + ACONFIG_VALUES_LIST_LOCAL
 }
 
 aconfig_values {

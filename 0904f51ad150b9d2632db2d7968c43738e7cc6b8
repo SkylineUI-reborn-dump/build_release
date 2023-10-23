@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "131e7b0d_ea19fa15",
+        "filename": "aconfig/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-10-23T18:45:29Z",
+      "side": 1,
+      "message": "These variables are not inherited to subdirectory Android.bp files.",
+      "revId": "0904f51ad150b9d2632db2d7968c43738e7cc6b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

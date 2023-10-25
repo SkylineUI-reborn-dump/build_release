@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "53033700_008291bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2023-10-25T18:16:22Z",
+      "side": 1,
+      "message": "Once aosp/2795055 has been submitted, this would be easy to do in `release_config.mk` by appending the local list (if any) to the end of `RELEASE_ACONFIG_VALUE_SETS`",
+      "revId": "0904f51ad150b9d2632db2d7968c43738e7cc6b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "131e7b0d_ea19fa15",
         "filename": "aconfig/Android.bp",
         "patchSetId": 1

@@ -85,13 +85,9 @@ flags = [
     # This flag will control the rollout of new versions of the SoundPicker app.
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
-    # The name of the virtual camera package to add to the system partition.
-    flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
-
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.
-    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
     flag("RELEASE_PLATFORM_VERSION", ALL, "VP1A"),
 
     #  Used to indicate the security patch that has been applied to the device.

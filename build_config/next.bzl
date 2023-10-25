@@ -43,4 +43,7 @@ values = [
     value("RELEASE_AIDL_USE_UNFROZEN", False),
     value("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", False),
     value("RELEASE_EXPOSE_FLAGGED_API", True),
-] + platform_version_flags
+    value("RELEASE_PLATFORM_VERSION", "UP1A"),
+    value("RELEASE_PLATFORM_VERSION_CODENAME_REL", "true"),
+    value("RELEASE_PLATFORM_VNDK_VERSION", "35"),
+]

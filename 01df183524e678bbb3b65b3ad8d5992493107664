@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2eb2302c_bef3a48e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2023-10-25T10:29:48Z",
+      "side": 1,
+      "message": "This is a git SHA, I think you want `I90820c93224e5d3a62edfd20d5a0264f82b7f8e4` ?",
+      "revId": "01df183524e678bbb3b65b3ad8d5992493107664",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

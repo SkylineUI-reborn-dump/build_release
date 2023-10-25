@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab617bfc_9b38d4e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1334152
+      },
+      "writtenOn": "2023-10-25T14:10:41Z",
+      "side": 1,
+      "message": "Patchset 2 fixes merge conflicts.",
+      "revId": "b001e1aa6db2c2ab10c3cc0bca988ee2cc53c552",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -33,6 +33,23 @@
       "message": "Verified that this exact topic (i.e. after my merge conflict resolution) allows aosp-master-with-vendor to build and boot.",
       "revId": "b001e1aa6db2c2ab10c3cc0bca988ee2cc53c552",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76db6e25_37a47ae0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1334152
+      },
+      "writtenOn": "2023-10-25T14:47:06Z",
+      "side": 1,
+      "message": "This doesn\u0027t look like the right solution, see Eng Prod chat.",
+      "revId": "b001e1aa6db2c2ab10c3cc0bca988ee2cc53c552",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -16,6 +16,24 @@
       "message": "This is a git SHA, I think you want `I90820c93224e5d3a62edfd20d5a0264f82b7f8e4` ?",
       "revId": "01df183524e678bbb3b65b3ad8d5992493107664",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb6c0ce8_cdb583a5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2023-10-25T10:59:27Z",
+      "side": 1,
+      "message": "Ooops.\n\nUpdated with a Change-Id that should make this CL merge to git_udc-dev-plus-aosp but not to git_main.",
+      "parentUuid": "2eb2302c_bef3a48e",
+      "revId": "01df183524e678bbb3b65b3ad8d5992493107664",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

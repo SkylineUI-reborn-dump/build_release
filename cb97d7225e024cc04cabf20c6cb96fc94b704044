@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c48f22ef_7d35c32c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1878380
+      },
+      "writtenOn": "2023-10-27T21:48:52Z",
+      "side": 1,
+      "message": "If there is a better alternative where this module can reside, we should move it there.",
+      "revId": "cb97d7225e024cc04cabf20c6cb96fc94b704044",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

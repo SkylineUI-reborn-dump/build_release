@@ -27,4 +27,6 @@ load("//build/release/build_config/trunk_versions.bzl", "platform_version_flags"
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "//build/release/aconfig/trunk:aconfig_value_set-aosp-trunk"),
+    value("RELEASE_APEX_CONTRIBUTIONS_CONSCRYPT", "conscrypt.source.contributions"),
+    value("RELEASE_APEX_CONTRIBUTIONS_DEVICELOCK", "devicelock.source.contributions"),
 ] + platform_version_flags

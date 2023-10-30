@@ -73,28 +73,63 @@ flags = [
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, True),
 
+    # feature flag to deprecate VNDK
+    flag("RELEASE_DEPRECATE_VNDK", ALL, False),
+
     # Enables flagged apis to be exposed.
     flag("RELEASE_EXPOSE_FLAGGED_API", ALL, True),
 
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 
+    # This flag will control the rollout of new versions of the SoundPicker app.
+    flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
+
+    # The name of the virtual camera package to add to the system partition.
+    flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
+
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.
-    flag("RELEASE_PLATFORM_VERSION", ALL, "VP1A"),
+    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
+    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
 
-    # Set to true when the current platform version should be marked as REL.
-    flag("RELEASE_PLATFORM_VERSION_CODENAME_REL", ALL, ""),
+    #  Used to indicate the security patch that has been applied to the device.
+    #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
+    #  It must be of the form "YYYY-MM-DD" on production devices.
+    #  It must match one of the Android Security Patch Level strings of the Public Security Bulletins.
+    #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
+    flag("RELEASE_PLATFORM_SECURITY_PATCH", ALL, "2023-12-05"),
+
+    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
+    # when the API is finalized and the codename is set to rel, not during development.
+    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
+
+    # The sdk extension version of this release configuration.
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "7"),
+
+    # Set to REL for production platform builds, otherwise the codename string,
+    # e.g. UpsideDownCake or VanillaIceCream
+    flag("RELEASE_PLATFORM_VERSION_CODENAME", ALL, "VanillaIceCream"),
+
+    # A comma separated list of all codenames that are in preview.
+    # This variable is sort of a lie for historical reasons and only
+    # includes codenames up to and including the currently active codename
+    flag("RELEASE_PLATFORM_VERSION_ALL_CODENAMES", ALL, "UpsideDownCake,VanillaIceCream"),
+
+    # A comma separated list of all preview codenames the platform will accept apps built against
+    flag("RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES", ALL, "UpsideDownCake,VanillaIceCream"),
+
+    # The last stable version name of the platform that was released.  During
+    # development, this stays at that previous version, while the codename indicates
+    # further work based on the previous version.
+    flag("RELEASE_PLATFORM_VERSION_LAST_STABLE", ALL, "14"),
 
     # The PLATFORM_VNDK_VERSION will be set to this version when the
     # PLATFORM_VERSION_CODENAME is REL. This VNDK version flag will be removed
     # when the VNDK is deprecated
-    flag("RELEASE_PLATFORM_VNDK_VERSION", ALL, ""),
+    flag("RELEASE_PLATFORM_VNDK_VERSION", ALL, "35"),
 
     # feature flag for removing legacy emoji font from system image.
-    flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, "false"),
-
-    # feature flag to deprecate VNDK
-    flag("RELEASE_DEPRECATE_VNDK", ALL, False),
+    flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
 ]

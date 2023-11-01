@@ -44,6 +44,9 @@ flags = [
     # they always have.
     flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
 
+    # Move ANGLE libraries from vendor partition to system partition.
+    flag("RELEASE_ANGLE_ON_SYSTEM", ALL, False),
+
     # Enables acces to the AVF APIs to pre-installed apps.
     flag("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", SYSTEM, False),
 

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fe85874_97a49ae4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1267775
+      },
+      "writtenOn": "2023-11-02T05:20:43Z",
+      "side": 1,
+      "message": "The patch can be cleanly applied to `git_main`, I am struggling with understanding why there\u0027s an AUTO-MERGE-CONFLICT. :/\n\nAny insight would be appreciated.",
+      "revId": "4350b9f306260695347c25eb0dccd8ba0f68bcf7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

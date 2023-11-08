@@ -34,8 +34,10 @@ flags = [
     # The default permission for all flags
     flag("RELEASE_ACONFIG_FLAG_DEFAULT_PERMISSION", ALL, "READ_WRITE"),
 
-    # The aconfig_value_set soong module to use to set aconfig values.
-    flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None),
+    # The aconfig_value_set soong module(s) to use to set aconfig values.
+    # If multiple values are provided, then they will be used in the order they
+    # were added: the last value for a flag is the final value.
+    flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None, appends = True),
 
     # Enables the use of the unfrozen versions of AIDL interfaces.
     # When this is `False` the libraries of the latest unfrozen version of a
@@ -43,6 +45,9 @@ flags = [
     # When this is `True` the libraries behave like the lastest unfrozen version like
     # they always have.
     flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
+
+    # Move ANGLE libraries from vendor partition to system partition.
+    flag("RELEASE_ANGLE_ON_SYSTEM", ALL, False),
 
     # The contributions made by apexes (source or prebuilts) to the rest of the build.
     flag("RELEASE_APEX_CONTRIBUTIONS_ADSERVICES", ALL, None),

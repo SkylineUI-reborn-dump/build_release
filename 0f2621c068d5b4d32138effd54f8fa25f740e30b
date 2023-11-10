@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c9b52d2_dcf3bb47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1836235
+      },
+      "writtenOn": "2023-11-10T12:53:42Z",
+      "side": 1,
+      "message": "The [flagging docs](https://g3doc.corp.google.com/company/teams/android-core-experiments/trunk-stable/build-system-flags.md?cl\u003dhead) still link to the .bzl files btw",
+      "revId": "0f2621c068d5b4d32138effd54f8fa25f740e30b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {

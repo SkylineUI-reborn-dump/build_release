@@ -20,7 +20,7 @@ Build flag definitions.
 # This is for things that must be decided at compile time.
 
 load(
-    "//build/make/core/release_config.bzl",
+    "//build/make/core/release_config.scl",
     "ALL",
     "PRODUCT",  # buildifier: disable=load
     "SYSTEM",  # buildifier: disable=load
@@ -34,8 +34,10 @@ flags = [
     # The default permission for all flags
     flag("RELEASE_ACONFIG_FLAG_DEFAULT_PERMISSION", ALL, "READ_WRITE"),
 
-    # The aconfig_value_set soong module to use to set aconfig values.
-    flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None),
+    # The aconfig_value_set soong module(s) to use to set aconfig values.
+    # If multiple values are provided, then they will be used in the order they
+    # were added: the last value for a flag is the final value.
+    flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None, appends = True),
 
     # Enables the use of the unfrozen versions of AIDL interfaces.
     # When this is `False` the libraries of the latest unfrozen version of a
@@ -43,6 +45,32 @@ flags = [
     # When this is `True` the libraries behave like the lastest unfrozen version like
     # they always have.
     flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
+
+    # Move ANGLE libraries from vendor partition to system partition.
+    flag("RELEASE_ANGLE_ON_SYSTEM", ALL, False),
+
+    # The contributions made by apexes (source or prebuilts) to the rest of the build.
+    flag("RELEASE_APEX_CONTRIBUTIONS_ADSERVICES", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_APPSEARCH", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_ART", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_BLUETOOTH", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_CONFIGINFRASTRUCTURE", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_CONNECTIVITY", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_CONSCRYPT", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_CRASHRECOVERY", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_DEVICELOCK", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_HEALTHFITNESS", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_IPSEC", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_MEDIA", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_MEDIAPROVIDER", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_ONDEVICEPERSONALIZATION", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_PERMISSION", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_REMOTEKEYPROVISIONING", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_SCHEDULING", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_SDKEXTENSIONS", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_STATSD", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_UWB", ALL, None),
+    flag("RELEASE_APEX_CONTRIBUTIONS_WIFI", ALL, None),
 
     # Enables acces to the AVF APIs to pre-installed apps.
     flag("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", SYSTEM, False),
@@ -69,6 +97,12 @@ flags = [
 
     # If enabled, DeathRecipient is not strongly referenced from JNI.
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False),
+
+    # The API level of current vendor API surface. It has YYYYMM format.
+    flag("RELEASE_BOARD_API_LEVEL", ALL, ""),
+
+    # Set to True to freeze the board API level with vendor FRC
+    flag("RELEASE_BOARD_API_LEVEL_FROZEN", ALL, False),
 
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, True),

@@ -16,6 +16,23 @@
       "message": "+2 but check the presubmit runs. they look like they could be related.",
       "revId": "bd49da645899fc0c688ea2ab466dd08a60d20837",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d4739f4_51936fdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2023-11-27T22:02:44Z",
+      "side": 1,
+      "message": "I know there\u0027s been a lot of back and forth about which targets are and aren\u0027t covered by go/ab. Is trunk_staging covered by pre- and post-submit, or is this more like checkbuild, and breaks will only be seen when someone looks for them?",
+      "revId": "bd49da645899fc0c688ea2ab466dd08a60d20837",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

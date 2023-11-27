@@ -33,6 +33,23 @@
       "message": "I know there\u0027s been a lot of back and forth about which targets are and aren\u0027t covered by go/ab. Is trunk_staging covered by pre- and post-submit, or is this more like checkbuild, and breaks will only be seen when someone looks for them?",
       "revId": "bd49da645899fc0c688ea2ab466dd08a60d20837",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cda7b8e5_0bf5d551",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2023-11-27T22:39:55Z",
+      "side": 1,
+      "message": "trunk_staging has good coverage on ab/. Trunk is the one with the worst, and next is not all the way working yet, but it\u0027s there.\n\nTrunk and trunk_food are supposed to be the same, which is the theory of why trunk doesn\u0027t need coverage.  I\u0027ve heard about some breakages in trunk, but I think theory mostly matches reality.",
+      "revId": "bd49da645899fc0c688ea2ab466dd08a60d20837",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

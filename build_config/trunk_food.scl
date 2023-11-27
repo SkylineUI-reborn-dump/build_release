@@ -33,4 +33,9 @@ load("//build/make/core/release_config.scl", "value")
 ################################################################################
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "//build/release/aconfig/trunk_food:aconfig_value_set-aosp-trunk_food"),
+<<<<<<< HEAD   (d99483 trunk_food vs trunk: only aconfig flags differ)
 ]
+=======
+    value("RELEASE_ANGLE_ON_SYSTEM", True),
+] + platform_version_flags
+>>>>>>> CHANGE (446cff Revert "Deprecate VNDK from all trunk builds")

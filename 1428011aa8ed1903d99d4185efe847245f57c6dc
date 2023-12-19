@@ -70,6 +70,24 @@
       "parentUuid": "49ad0e31_5080549d",
       "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e5eb050_cb3d2aeb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1279898
+      },
+      "writtenOn": "2023-12-19T04:30:18Z",
+      "side": 1,
+      "message": "I guess I\u0027m not clear on whether adding it to this list means that VIC artifacts are allowed, I assumed that when min_sdk_version \u003e sdk_version, the build would fail or exclude the module. If that\u0027s not the case, then this change is incorrect.",
+      "parentUuid": "54a34c83_703eb267",
+      "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

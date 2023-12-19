@@ -34,6 +34,24 @@
       "parentUuid": "d4fdc513_a533149a",
       "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49ad0e31_5080549d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1279898
+      },
+      "writtenOn": "2023-12-19T02:42:36Z",
+      "side": 1,
+      "message": "The variable names here may be adding to the weirdness.\n\n1) RELEASE_PLATFORM_VERSION_CODENAME is \u0027REL\u0027, which is correct, this controls the platform SDK version that\u0027s applied.\n2) RELEASE_PLATFORM_VERSION_ALL_CODENAMES suggests it\u0027s all *preview* codenames: https://source.corp.google.com/h/android/platform/superproject/main/+/main:build/release/build_flags.scl;l\u003d155\n\nHowever, this doesn\u0027t seem to square with how it\u0027s used:\n\n1) All codenames populates \u0027active_codenames\u0027: https://source.corp.google.com/h/android/platform/superproject/main/+/main:build/make/core/soong_config.mk;l\u003d41?q\u003dPlatform_version_all_codenames\u0026ss\u003dh%2Fandroid%2Fplatform%2Fsuperproject%2Fmain%2F%2B%2Frefs%2Fheads%2Fmain\n2) But PreviewApiLevels uses only the active_codenames set: https://source.corp.google.com/h/android/platform/superproject/main/+/main:build/soong/android/config.go;l\u003d900\n\nIs this actually a problem with how our build soong files are populating these variables? An alternative fix here might be to make this point to AllPreviewApiLevels instead of AllActiveCodenames: https://source.corp.google.com/h/android/platform/superproject/main/+/main:build/soong/android/config.go;l\u003d903",
+      "parentUuid": "1f835181_71d6ebba",
+      "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

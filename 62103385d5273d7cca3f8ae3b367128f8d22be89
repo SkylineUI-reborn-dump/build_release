@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c044cd05_4d92680c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1413436
+      },
+      "writtenOn": "2023-12-19T02:29:02Z",
+      "side": 1,
+      "message": "FYI: I expect to merge this code (very) early Jan 2024.",
+      "revId": "62103385d5273d7cca3f8ae3b367128f8d22be89",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

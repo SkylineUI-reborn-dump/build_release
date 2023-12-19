@@ -52,6 +52,24 @@
       "parentUuid": "1f835181_71d6ebba",
       "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54a34c83_703eb267",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1166043
+      },
+      "writtenOn": "2023-12-19T04:16:07Z",
+      "side": 1,
+      "message": "I am talking more conceptually. Why would we allow VIC artifacts to be built into UDC/QPR3 image?",
+      "parentUuid": "49ad0e31_5080549d",
+      "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

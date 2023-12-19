@@ -16,6 +16,24 @@
       "message": "Alex, does this look right to you?",
       "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f835181_71d6ebba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1166043
+      },
+      "writtenOn": "2023-12-19T02:08:20Z",
+      "side": 1,
+      "message": "I am not sure what this means - it\u0027s a RELeased Android version, which is also somehow an VIC?\nAre we going to include artifacts built for VIC, to the UDC+REL system image?",
+      "parentUuid": "d4fdc513_a533149a",
+      "revId": "1428011aa8ed1903d99d4185efe847245f57c6dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27b5a8cf_8d0a7ffc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2023-12-20T12:22:37Z",
+      "side": 1,
+      "message": "Will be merged internally first to avoid a merge conflict. See ag/25711850.",
+      "revId": "a64462b4d03e107554b5c9fac6c4815a82a8abd7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

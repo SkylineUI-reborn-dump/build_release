@@ -33,4 +33,5 @@ load("//build/make/core/release_config.scl", "value")
 ################################################################################
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-aosp-trunk_food"),
+    value("RELEASE_LARGE_SYSTEM_PROPERTY_NODE", True),
 ]

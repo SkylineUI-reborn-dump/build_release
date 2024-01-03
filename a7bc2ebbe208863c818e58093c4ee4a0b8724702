@@ -16,6 +16,24 @@
       "message": "I hate to say it... but should this progress through all the stages like any other flag?",
       "revId": "a7bc2ebbe208863c818e58093c4ee4a0b8724702",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "febae6c8_6acd92b3",
+        "filename": "build_config/trunk.scl",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1882770
+      },
+      "writtenOn": "2024-01-03T13:58:51Z",
+      "side": 1,
+      "message": "ah, makes sense, thanks for reminding.",
+      "parentUuid": "9da4d46d_52c48ff0",
+      "revId": "a7bc2ebbe208863c818e58093c4ee4a0b8724702",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

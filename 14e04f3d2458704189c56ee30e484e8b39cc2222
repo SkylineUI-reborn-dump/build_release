@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1077b68_94fd9838",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1267775
+      },
+      "writtenOn": "2024-01-04T18:18:27Z",
+      "side": 1,
+      "message": "All IC criteria signed off. ptal",
+      "revId": "14e04f3d2458704189c56ee30e484e8b39cc2222",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

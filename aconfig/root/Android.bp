@@ -17,5 +17,41 @@ aconfig_values {
     package: "com.android.aconfig.test",
     srcs: [
         "flag_values.textproto",
+		// Note: I think this doesn't work because the package inside
+		// generated .textproto doesn't match the one defined here.
+		// Should we change this to aconfig_value_set and allow per-release aconfig_value_sets
+		// depend on it?
+		":aconfig_values_avf-aosp-root-generated",
     ]
+}
+
+aconfig_values {
+	name: "aconfig_values_avf-root-all",
+	package: "com.android.system.virtualmachine.flags",
+	srcs: [
+		":aconfig_values_avf-aosp-root-generated",
+	]
+}
+
+soong_config_module_type {
+	name: "gensrcs_with_flags",
+	module_type: "gensrcs",
+	config_namespace: "ANDROID",
+	bool_variables: ["release_avf_enable_vendor_modules"],
+	properties: ["cmd"],
+}
+
+gensrcs_with_flags {
+	name: "aconfig_values_avf-aosp-root-generated",
+	srcs: ["avf_flags_values.textproto"],
+	output_extension: "avf_flags_values_processes.textproto",
+	tools: ["m4"],
+	soong_config_variables: {
+		release_avf_enable_vendor_modules: {
+			cmd: "$(location m4) -D release_avf_enable_vendor_modules=true $(in) > $(out)",
+			conditions_default: {
+				cmd: "$(location m4) -D release_avf_enable_vendor_modules=false $(in) > $(out)"
+			}
+		},
+	},
 }

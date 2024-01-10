@@ -19,3 +19,10 @@ aconfig_values {
         "flag_values.textproto",
     ]
 }
+aconfig_values {
+    name: "aconfig_values-aosp-root-libcore",
+    package: "com.android.libcore",
+    srcs: [
+        "flag_values_libcore.textproto",
+    ]
+}

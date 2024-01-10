@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "550ad3dc_c99d062c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-01-10T05:05:32Z",
+      "side": 1,
+      "message": "Hi Joe, can you take a look?\n\nI\u0027m going to refer this flag in the internal main branch after auto merged.",
+      "revId": "42261f90e6b579aafedc3d83d1e38186a14d788a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

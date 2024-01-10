@@ -17,5 +17,5 @@ aconfig_values {
     package: "com.android.aconfig.test",
     srcs: [
         "flag_values.textproto",
-    ]
+    ],
 }

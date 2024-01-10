@@ -17,7 +17,8 @@ aconfig_value_set {
     values: [
         "aconfig_values-aosp-root-all",
         "aconfig_values-aosp-trunk-all",
-    ]
+        "aconfig-values-aosp-trunk-com.android.libcore.flags-all",
+    ],
 }
 
 aconfig_values {
@@ -25,5 +26,5 @@ aconfig_values {
     package: "com.android.all",
     srcs: [
         "flag_values.textproto",
-    ]
+    ],
 }

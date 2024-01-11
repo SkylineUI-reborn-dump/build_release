@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7e4216e_ba23c118",
+        "filename": "build_config/trunk.scl",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-01-11T10:13:44Z",
+      "side": 1,
+      "message": "This should be in trunk_staging.scl first. The flow is trunk_staging -\u003e trunk -\u003e next.",
+      "revId": "cc7bce52fde7c77dfb09a812e325f7d64bce4207",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

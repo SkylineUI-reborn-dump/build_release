@@ -44,4 +44,5 @@ values = [
     value("RELEASE_ANGLE_ON_SYSTEM", True),
     value("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", False),
     value("RELEASE_EXPOSE_FLAGGED_API", True),
+    value("RELEASE_PACKAGE_TZDATA_MODULE", "com.android.tzdata"),
 ] + platform_version_flags

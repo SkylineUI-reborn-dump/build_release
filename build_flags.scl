@@ -192,4 +192,7 @@ flags = [
 
     # True for using variable font of the NotoSansCJK
     flag("RELEASE_PACKAGE_VARIABLE_NOTO_SANS_CJK", SYSTEM, False),
+
+    # True for including Hentaigana font.
+    flag("RELEASE_PACKAGE_HENTAIGANA_FONT", SYSTEM, False),
 ]

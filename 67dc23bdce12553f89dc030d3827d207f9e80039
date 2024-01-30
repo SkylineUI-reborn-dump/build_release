@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b55ca049_3144abbd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-01-30T13:13:33Z",
+      "side": 1,
+      "message": "Hi, Joe can you take a look?\n\nI will add Merged-In label once the internal one is merged.\n\nThank you.",
+      "revId": "67dc23bdce12553f89dc030d3827d207f9e80039",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

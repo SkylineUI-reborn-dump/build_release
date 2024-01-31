@@ -28,6 +28,7 @@ load("//build/release/build_config/trunk_versions.scl", "platform_version_flags"
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-aosp-trunk"),
     value("RELEASE_ANGLE_ON_SYSTEM", True),
+    value("RELEASE_CRASHRECOVERY_MODULE", True),
     value("RELEASE_DEPRECATE_VNDK", True),
     value("RELEASE_PACKAGE_TZDATA_MODULE", "com.android.tzdata"),
 ] + platform_version_flags

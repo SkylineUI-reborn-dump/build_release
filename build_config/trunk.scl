@@ -28,8 +28,12 @@ load("//build/release/build_config/trunk_versions.scl", "platform_version_flags"
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-aosp-trunk"),
     value("RELEASE_ANGLE_ON_SYSTEM", True),
+<<<<<<< PATCH SET (6d5272 Enabling CrashRecovery on trunk and trunk_staging)
+    value("RELEASE_CRASHRECOVERY_MODULE", True),
+=======
     value("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", True),
     value("RELEASE_AVF_ENABLE_DICE_CHANGES", True),
+>>>>>>> BASE      (efb6cc Propagate ALLOW_PREINSTALLED_APPS and ENABLE_DICE_CHANGES to)
     value("RELEASE_DEPRECATE_VNDK", True),
     value("RELEASE_PACKAGE_TZDATA_MODULE", "com.android.tzdata"),
 ] + platform_version_flags

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17985471_a642f40b",
+        "filename": "build_config/trunk.scl",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-02-06T18:00:19Z",
+      "side": 1,
+      "message": "This change is updating trunk_staging and trunk at the same time. Please follow http://go/trunk-stable-speed-limits\n\nThanks",
+      "revId": "2cf5c7fb3e36e993b148c040e43cf95ce651243d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

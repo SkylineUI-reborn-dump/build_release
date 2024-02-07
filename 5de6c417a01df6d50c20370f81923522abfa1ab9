@@ -22,6 +22,30 @@
       },
       "revId": "5de6c417a01df6d50c20370f81923522abfa1ab9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "539bcf94_27a83433",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-02-07T07:16:24Z",
+      "side": 1,
+      "message": "Just reviewed the companion CL and RELEASE_EXPORT_RUNTIME_APIS makes more sense when viewing both CLs together.",
+      "parentUuid": "9c7a05bd_f0fe560f",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 49
+      },
+      "revId": "5de6c417a01df6d50c20370f81923522abfa1ab9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c7a05bd_f0fe560f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-02-07T07:14:47Z",
+      "side": 1,
+      "message": "This is not the name used in the code.\n\nI don\u0027t know which of the two I prefer. Maybe RELEASE_EXPOSE_READ_WRITE_FLAGGED_APIS is best?",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 49
+      },
+      "revId": "5de6c417a01df6d50c20370f81923522abfa1ab9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

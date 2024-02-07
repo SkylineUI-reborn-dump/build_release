@@ -46,6 +46,30 @@
       },
       "revId": "5de6c417a01df6d50c20370f81923522abfa1ab9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59f6758a_25fa81e1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1962375
+      },
+      "writtenOn": "2024-02-07T22:29:49Z",
+      "side": 1,
+      "message": "Understood. I\u0027ve updated the CL title.",
+      "parentUuid": "539bcf94_27a83433",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 49
+      },
+      "revId": "5de6c417a01df6d50c20370f81923522abfa1ab9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

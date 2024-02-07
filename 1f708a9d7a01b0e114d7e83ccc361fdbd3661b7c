@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37a9e497_f974bcae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1021004
+      },
+      "writtenOn": "2024-02-07T11:29:26Z",
+      "side": 1,
+      "message": "Hi Pedro, you reviewed the internal version of this - moving it to AOSP per the linter results.",
+      "revId": "1f708a9d7a01b0e114d7e83ccc361fdbd3661b7c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

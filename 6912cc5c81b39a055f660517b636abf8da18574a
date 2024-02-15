@@ -56,6 +56,30 @@
       },
       "revId": "6912cc5c81b39a055f660517b636abf8da18574a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04285403_a3b2f13f",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2024-02-15T01:00:51Z",
+      "side": 1,
+      "message": "I think that other teams are using aconfig flags. We are in a somewhat unique position - most of our features can\u0027t be safely gated just by the aconfig flags, hence we are owners of the most of the build time flags :)",
+      "parentUuid": "9a14a6cf_b43bcedd",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 67
+      },
+      "revId": "6912cc5c81b39a055f660517b636abf8da18574a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

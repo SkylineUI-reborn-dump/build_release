@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c89a8f9_ac85cbc3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2024-02-15T00:35:13Z",
+      "side": 1,
+      "message": "You need to invite owners.",
+      "revId": "6912cc5c81b39a055f660517b636abf8da18574a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6513189_c4eb7fa7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2024-02-15T00:35:13Z",
+      "side": 1,
+      "message": "You need to invite owners.",
+      "revId": "6912cc5c81b39a055f660517b636abf8da18574a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a14a6cf_b43bcedd",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2024-02-15T00:35:13Z",
+      "side": 1,
+      "message": "It\u0027s a bit odd to see about half of configs in this file are from us. What do others do??? :)",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 67
+      },
+      "revId": "6912cc5c81b39a055f660517b636abf8da18574a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -91,7 +91,7 @@ flags = [
     flag("RELEASE_BOARD_API_LEVEL_FROZEN", ALL, False),
 
     # If true, then crashrecovery module is enabled as an apex
-    flag("RELEASE_CRASHRECOVERY_MODULE", ALL, False),
+    flag("RELEASE_CRASHRECOVERY_MODULE", ALL, True),
 
     # Enable build system to create new aconfig storage files.
     flag("RELEASE_CREATE_ACONFIG_STORAGE_FILE", ALL, False),

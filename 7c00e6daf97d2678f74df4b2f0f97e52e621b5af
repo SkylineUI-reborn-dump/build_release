@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "658df939_8fa0f02d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-02-21T17:50:20Z",
+      "side": 1,
+      "message": "Minor nit: consider fixing the indentation on the comment.",
+      "revId": "7c00e6daf97d2678f74df4b2f0f97e52e621b5af",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

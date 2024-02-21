@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed6e1586_d51ededd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-02-21T00:00:27Z",
+      "side": 1,
+      "message": "This enables the flag for next, and all other release configurations that didn\u0027t mention the flag specifically in their configurations.",
+      "revId": "14018bd97668508ba6c69b4bf8dce58d8e79a029",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

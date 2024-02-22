@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2e6a836_a2784506",
+        "filename": "build_flags.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-02-22T04:42:27Z",
+      "side": 1,
+      "message": "Please put the blank line above for consistency in this file.",
+      "revId": "200a8b4c6d73feb38de751794cffd7b7d91c7b24",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7aa20d8_6bd58468",
+        "filename": "build_flags.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-02-22T19:39:51Z",
+      "side": 1,
+      "message": "Please set the default to false, and set the value to true in trunk_staging, because:\n\n(1) It needs to go to trunk_staging before it goes to trunk, and then eventually to next.\n(2) This CL sets the flag to True in all other release configs, like ap1a and mainline, which it shouldn\u0027t.",
+      "revId": "fdfb592be2bfa34502cb0e281dd2e24ddbda3081",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

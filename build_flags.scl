@@ -114,6 +114,9 @@ flags = [
     # apis ("exportable" stubs).
     flag("RELEASE_HIDDEN_API_EXPORTABLE_STUBS", ALL, False),
 
+    # Ignore /data/data relabelling in libselinux.
+    flag("RELEASE_LIBSELINUX_DATA_DATA", ALL, False),
+
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 

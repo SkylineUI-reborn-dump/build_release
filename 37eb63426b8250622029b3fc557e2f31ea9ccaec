@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ecc204d9_85aa4ba1",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1605569
+      },
+      "writtenOn": "2024-02-27T00:06:01Z",
+      "side": 1,
+      "message": "I think this file is intended to stay alphabetized (though I see it\u0027s already not), move this up to line 46?",
+      "revId": "37eb63426b8250622029b3fc557e2f31ea9ccaec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

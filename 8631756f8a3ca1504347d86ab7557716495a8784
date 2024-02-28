@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3476d0c9_e00d54c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1951966
+      },
+      "writtenOn": "2024-02-28T01:14:58Z",
+      "side": 1,
+      "message": "Hey Jag. Thanks for doing this. Actually, submitting this way might be problematic and breaking `next` (as we cannot submit `next` flag value in this same aosp topic). We might need to follow this order of submission\n1. aosp/2980954 - declare build flag\n2. [after 1 propagating to internal main] ag/26332775 - set the exclusion list in `next`\n3. aosp/2980732 - art config to use flag value instead.\n\nAlternatively, we can submit my internal topic first, then cp\u0027ing some cls to aosp (not sure if this is allowed).",
+      "revId": "8631756f8a3ca1504347d86ab7557716495a8784",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

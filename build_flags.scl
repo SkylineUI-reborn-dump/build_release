@@ -178,4 +178,7 @@ flags = [
 
     # b/292140387: Flag to switch to the new NFC apex
     flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
+
+    # flag to enable the unlocked-only storage API's SEPolicy rules
+    flag("RELEASE_UNLOCKED_STORAGE_API", ALL, False),
 ]

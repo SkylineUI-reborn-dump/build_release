@@ -210,6 +210,9 @@ flags = [
     # feature flag for enabling use_resource_processor: true by default
     flag("RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT", ALL, False),
 
+    # flag to enable the unlocked-only storage API's SEPolicy rules 
+    flag("RELEASE_NEW_UNLOCKED_STORAGE_API", ALL, False),
+
     # b/318717084 - enable the WebViewBootstrap mainline module
     flag("RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE", ALL, False),
 ]

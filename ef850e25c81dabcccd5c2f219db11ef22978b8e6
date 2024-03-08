@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb22874e_30102de2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-03-08T00:42:33Z",
+      "side": 1,
+      "message": "You\u0027ll need to refactor this since trunk_versions.scl has been removed.",
+      "revId": "ef850e25c81dabcccd5c2f219db11ef22978b8e6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

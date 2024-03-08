@@ -16,6 +16,23 @@
       "message": "I\u0027d like Ian\u0027s input on this CL.",
       "revId": "386e2132628456db315996dc44fd985e79a30578",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f90f3477_efa50d2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-03-08T00:58:41Z",
+      "side": 1,
+      "message": "Actually, since it\u0027s changing `trunk` and not `next`, this is fine.",
+      "revId": "386e2132628456db315996dc44fd985e79a30578",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

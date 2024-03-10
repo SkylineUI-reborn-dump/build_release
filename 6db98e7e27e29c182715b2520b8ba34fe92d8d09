@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3d4542b_7e3f1d43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1623611
+      },
+      "writtenOn": "2024-03-10T16:26:17Z",
+      "side": 1,
+      "message": "Just to clarify: sqlite 3.44.2 is the current version in aosp.  This change allows us to pivot sqlite to build flags without changing the release that is in use.",
+      "revId": "6db98e7e27e29c182715b2520b8ba34fe92d8d09",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

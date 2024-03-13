@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "505f42b6_dd85cd75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-03-13T11:40:22Z",
+      "side": 1,
+      "message": "Hi, Morris, can you take a look?\n\nI don\u0027t know what happened but the previous trunk_staging change was not found, maybe because of bad merge?\n\nre-landing the CJK-VF flag to trunk_staing.\n\nThis is actually no-op to AOSP because the font is only available in internal branch yet.",
+      "revId": "9052af5477fabf4b45514dc4119b158e75ad9cd6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -50,6 +50,24 @@
       "message": "Seigo, I found these flags were removed in trunk_staging.scl, please check and add it as well. I +2 it for these CLs first.",
       "revId": "064abb10ac708acb8c30872e9231b27ac28feee2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c88b11b6_ea1afa20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-03-13T12:05:56Z",
+      "side": 1,
+      "message": "Thank you for approving the nextfood, but I need to merge the internal one first for avoiding automerge conflict. Can you take a look at internal one as well?\n\nhttps://googleplex-android-review.git.corp.google.com/c/platform/build/release/+/26317142\n\nFor the missing entry in trunk_stagin.scl, maybe because of bad merge?\n\nI uploaded a fix as well here: https://android-review.git.corp.google.com/c/platform/build/release/+/3002816\n\nThank you.",
+      "parentUuid": "791a42eb_4d78d8e0",
+      "revId": "064abb10ac708acb8c30872e9231b27ac28feee2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

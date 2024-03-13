@@ -33,6 +33,23 @@
       "message": "Hi, Siyamed can you take a look? Looks like getting code review before requesting nextfood sign off.\n\nThis cannot be verified for now because of merge conflict.\n\nThank you.",
       "revId": "064abb10ac708acb8c30872e9231b27ac28feee2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "791a42eb_4d78d8e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1315724
+      },
+      "writtenOn": "2024-03-13T07:27:13Z",
+      "side": 1,
+      "message": "Seigo, I found these flags were removed in trunk_staging.scl, please check and add it as well. I +2 it for these CLs first.",
+      "revId": "064abb10ac708acb8c30872e9231b27ac28feee2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

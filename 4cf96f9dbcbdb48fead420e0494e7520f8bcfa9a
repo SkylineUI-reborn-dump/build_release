@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c547de12_20c657c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1623611
+      },
+      "writtenOn": "2024-03-14T00:37:45Z",
+      "side": 1,
+      "message": "I have to back down to sqlite 3.42.0, which is the current release in the tree.",
+      "revId": "4cf96f9dbcbdb48fead420e0494e7520f8bcfa9a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

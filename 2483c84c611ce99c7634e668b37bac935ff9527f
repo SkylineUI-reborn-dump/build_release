@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55d2b5fe_060f1646",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1137063
+      },
+      "writtenOn": "2024-03-15T03:10:13Z",
+      "side": 1,
+      "message": "Add bug ID",
+      "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dfedc1c_9309a8e0",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1137063
+      },
+      "writtenOn": "2024-03-15T03:10:13Z",
+      "side": 1,
+      "message": "It looks like this enables the flag directly in trunk_staging.  Normally that\u0027s done in Gantry -- is that not possible for this flag because it\u0027s a build flag instead of a regular flag?  And does sepolicy definitely require a build flag?",
+      "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

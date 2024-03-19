@@ -69,6 +69,24 @@
       "parentUuid": "9dfedc1c_9309a8e0",
       "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82ec3ef2_9040cf20",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1291338
+      },
+      "writtenOn": "2024-03-19T00:50:03Z",
+      "side": 1,
+      "message": "SEPolicy needs to be initialized very early (even before second stage boot) so it must rely on build-time flagging.\n\nSo the question is whether we really need to flag-guard these or not. I don\u0027t have a simple answer; flag-guarding sepolicy definitely helps security but we\u0027ll end up using two separate flags (one for build-time, one for gantry).\n\nI\u0027m not sure how it will be difficult to maintain two flags; if it\u0027s feasible then I prefer flag-guarding SEPolicy too. If we ignore that, we\u0027ll end up allowing permissions to all devices, violating the principle of least privilege just for convenience.",
+      "parentUuid": "6e80bcee_049fee7e",
+      "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

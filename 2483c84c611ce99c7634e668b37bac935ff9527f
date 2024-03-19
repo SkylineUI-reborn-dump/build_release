@@ -87,6 +87,24 @@
       "parentUuid": "6e80bcee_049fee7e",
       "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a864da2d_44b83d98",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1060831
+      },
+      "writtenOn": "2024-03-19T11:30:39Z",
+      "side": 1,
+      "message": "Build flags aren\u0027t Gantry-managed, they have to be done this way, and we do need a build flag for sepolicy.\nYou could use the same build flag everywhere - they have advantages and disadvantages. Or a separate flag for the code.\n\nI\u0027m somewhat in favor of flagging these sepolicy changes, mostly because the changes  are reasonably large. Although I don\u0027t think there\u0027s a lot of risk of breaking anything.",
+      "parentUuid": "82ec3ef2_9040cf20",
+      "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

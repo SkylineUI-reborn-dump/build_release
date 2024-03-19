@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18cc785c_68a15e6e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-03-19T01:03:18Z",
+      "side": 1,
+      "message": "Discussed with Kiyong. There isn\u0027t really a procedure for what to do when deleting build flags. But let\u0027s give this a try.",
+      "revId": "b82e195fe29a2afc946f944314d0e4f623edc1c4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

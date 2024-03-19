@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bff5db27_bbf11492",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1954616
+      },
+      "writtenOn": "2024-03-19T00:25:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55d2b5fe_060f1646",
+      "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9dfedc1c_9309a8e0",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-03-15T03:10:13Z",
       "side": 1,
       "message": "It looks like this enables the flag directly in trunk_staging.  Normally that\u0027s done in Gantry -- is that not possible for this flag because it\u0027s a build flag instead of a regular flag?  And does sepolicy definitely require a build flag?",
+      "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e80bcee_049fee7e",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1954616
+      },
+      "writtenOn": "2024-03-19T00:25:41Z",
+      "side": 1,
+      "message": "Looking at the go/ts-sepolicy-flagging-guide , it looks like sepolicy does definitely need a build flag. \nI\u0027m not sure other ways to enable it -- I\u0027m asking the author of the flagging guide now.",
+      "parentUuid": "9dfedc1c_9309a8e0",
       "revId": "2483c84c611ce99c7634e668b37bac935ff9527f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }

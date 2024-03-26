@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d44e43e1_b28df97b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2024-03-26T20:12:12Z",
+      "side": 1,
+      "message": "nit: trunk-staging :)",
+      "range": {
+        "startLine": 9,
+        "startChar": 24,
+        "endLine": 9,
+        "endChar": 29
+      },
+      "revId": "14625c382d0017f86d6054cb35308416b5b2d7d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

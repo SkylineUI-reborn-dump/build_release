@@ -103,5 +103,6 @@ aconfig_value_set {
         "aconfig-values-aosp-trunk_food-com.android.wm.shell-all",
         "aconfig-values-aosp-trunk_food-com.android.internal.foldables.flags-all",
         "aconfig-values-aosp-trunk_food-com.android.settingslib.media.flags-all",
+        "aconfig-values-aosp-trunk_food-com.android.libcore-all",
     ],
 }

@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "96691763_effdd519",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1386891
+      },
+      "writtenOn": "2024-04-03T15:34:58Z",
+      "side": 1,
+      "message": "do we need to wait even in staging?",
+      "parentUuid": "39660cc3_15a13582",
+      "revId": "235ce0af1413b0242fb82791f345fee3613ed744",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "780065be_009d4ba5",
         "filename": "build_flags.scl",
         "patchSetId": 1
@@ -31,6 +49,30 @@
       "writtenOn": "2024-04-03T15:13:58Z",
       "side": 1,
       "message": "I think the scope can be bigger than display. How about RELEASE_AVF_SUPPORT_CUSTOM_VM?",
+      "range": {
+        "startLine": 82,
+        "startChar": 10,
+        "endLine": 82,
+        "endChar": 36
+      },
+      "revId": "235ce0af1413b0242fb82791f345fee3613ed744",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "967126f9_2c8a7dac",
+        "filename": "build_flags.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1386891
+      },
+      "writtenOn": "2024-04-03T15:34:58Z",
+      "side": 1,
+      "message": "Sounds good, done.",
+      "parentUuid": "780065be_009d4ba5",
       "range": {
         "startLine": 82,
         "startChar": 10,

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36389599_0d819284",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-04-03T16:28:53Z",
+      "side": 1,
+      "message": "Your choice on whether to add the change to `build_config/trunk_staging.scl` in this CL, or a subsequent one.",
+      "revId": "6d743da7cc889488e01cfb5d14d6c07781687dc5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

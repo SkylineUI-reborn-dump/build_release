@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bc917c9e_f741122b",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-04-03T16:28:53Z",
+      "side": 1,
+      "message": "The topic that adds the code to use the build flag can also set the flag for trunk_staging, though it is good to understand the tradeoffs:\n\n- If it\u0027s part of the topic and the changeset breaks trunk_staging, then the entire topic is likely to get reverted.\n- If the flag is enabled as a subsequent CL, only that CL gets reverted.\n\nDigging deeper, aconfig flags need to have \"two team members\" say that it is ready for trunk_staging before enabling it there.  That is expected to follow a period of teamfooding.  Since build flags don\u0027t generally have a way to teamfood, they can enter trunk_staging immediately, with the consideration above.",
+      "parentUuid": "96691763_effdd519",
+      "revId": "235ce0af1413b0242fb82791f345fee3613ed744",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "780065be_009d4ba5",
         "filename": "build_flags.scl",
         "patchSetId": 1

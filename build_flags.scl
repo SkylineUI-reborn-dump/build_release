@@ -212,5 +212,17 @@ flags = [
 
     # b/318717084 - enable the WebViewBootstrap mainline module
     flag("RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE", ALL, False),
+
+    # b/332726030 - flags for setting SVN values per device
+    flag("RELEASE_VENDOR_BUILD_SVN_BARBET", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_BLUEJAY", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_CHEETAH", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_FELIX", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_HUSKY", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_LYNX", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_ORIOLE", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_PANTHER", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_RAVEN", VENDOR, "98"),
+    flag("RELEASE_VENDOR_BUILD_SVN_SHIBA", VENDOR, "98"),
 ]
 # Flags should be alphabetical by flag name to reduce merge conflifcts

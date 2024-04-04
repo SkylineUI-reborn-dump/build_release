@@ -3,6 +3,29 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "006121aa_7b4f0860",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1137063
+      },
+      "writtenOn": "2024-04-04T16:41:32Z",
+      "side": 1,
+      "message": "Is this a cherry-pick of internal change I54cfa154f8a0a10a1e06763c3243b92f95c4b1cd?  If so, it should have the same Change-Id, and `git cherry-pick -x` should have been used so that the commit ID that it was cherry-picked from is included in the commit message.  These aren\u0027t strict rules, and maybe it\u0027s not worth bothering creating a new change when this one is already +2\u0027d, but for future reference that\u0027s the preferred way to do it.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 52
+      },
+      "revId": "52072521a2333738f3fe85d51a0a3b91e17a48c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "879ff2dc_6585f159",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 14
@@ -14,6 +37,29 @@
       "writtenOn": "2024-04-03T23:42:37Z",
       "side": 1,
       "message": "Adding @joeo@google.com to have a code owner as reviewer (thanks!)",
+      "revId": "52072521a2333738f3fe85d51a0a3b91e17a48c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "634d5f61_740a2bf8",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 14
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1137063
+      },
+      "writtenOn": "2024-04-04T16:41:32Z",
+      "side": 1,
+      "message": "This line being added is unrelated",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 60
+      },
       "revId": "52072521a2333738f3fe85d51a0a3b91e17a48c6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }

@@ -62,6 +62,30 @@
       },
       "revId": "52072521a2333738f3fe85d51a0a3b91e17a48c6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "167e99e6_fe476a7c",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 14
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1954616
+      },
+      "writtenOn": "2024-04-04T17:57:51Z",
+      "side": 1,
+      "message": "Good point, thanks",
+      "parentUuid": "634d5f61_740a2bf8",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 60
+      },
+      "revId": "52072521a2333738f3fe85d51a0a3b91e17a48c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

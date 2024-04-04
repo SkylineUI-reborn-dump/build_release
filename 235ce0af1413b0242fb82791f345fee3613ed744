@@ -54,6 +54,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f7db73a_fda5e97f",
+        "filename": "build_config/trunk_staging.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1386891
+      },
+      "writtenOn": "2024-04-04T01:19:28Z",
+      "side": 1,
+      "message": "Thanks for the clarification, LaMont! I uploaded the following CL enabling the flag.",
+      "parentUuid": "bc917c9e_f741122b",
+      "revId": "235ce0af1413b0242fb82791f345fee3613ed744",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "780065be_009d4ba5",

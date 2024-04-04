@@ -16,6 +16,29 @@
       "message": "Your choice on whether to add the change to `build_config/trunk_staging.scl` in this CL, or a subsequent one.",
       "revId": "6d743da7cc889488e01cfb5d14d6c07781687dc5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3990c6e_d3bfcfe2",
+        "filename": "build_flags.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1291338
+      },
+      "writtenOn": "2024-04-04T01:55:57Z",
+      "side": 1,
+      "message": "FYI there is an Android permission called `android.permission.USE_CUSTOM_VIRTUAL_MACHINE` and I\u0027m worried about confusion between `RELEASE_AVF_SUPPORT_CUSTOM_VM` and `android.permission.USE_CUSTOM_VIRTUAL_MACHINE`.",
+      "range": {
+        "startLine": 85,
+        "startChar": 10,
+        "endLine": 85,
+        "endChar": 39
+      },
+      "revId": "6d743da7cc889488e01cfb5d14d6c07781687dc5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "046f9e49_476bafc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1623611
+      },
+      "writtenOn": "2024-04-08T14:17:42Z",
+      "side": 1,
+      "message": "The commit comment will be updated to address the merge conflict as soon as the companion CL is merged into main.",
+      "revId": "cf76cdc843d32fa6f22294181d37c1b222883ef8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

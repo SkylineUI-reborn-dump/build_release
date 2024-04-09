@@ -81,6 +81,9 @@ flags = [
     # Specify which Microdroid kernel version to use for Microdroid VMs.
     flag("RELEASE_AVF_MICRODROID_KERNEL_VERSION", SYSTEM, None),
 
+    # Enable running custom VMs with paravirtualized devices.
+    flag("RELEASE_AVF_SUPPORT_CUSTOM_VM_WITH_PARAVIRTUALIZED_DEVICES", ALL, False),
+
     # If enabled, DeathRecipient is not strongly referenced from JNI.
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False),
 
@@ -206,6 +209,9 @@ flags = [
 
     # feature flag for a new API to open declared passthrough HAL
     flag("RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL", ALL, False),
+
+    # flag to enable the unlocked-only storage API's SEPolicy rules
+    flag("RELEASE_UNLOCKED_STORAGE_API", ALL, False),
 
     # feature flag for enabling use_resource_processor: true by default
     flag("RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT", ALL, False),

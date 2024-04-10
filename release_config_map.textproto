@@ -1,0 +1,5 @@
+description:  "Published open-source flags and declarations"
+default_containers:  "product"
+default_containers:  "system"
+default_containers:  "system_ext"
+default_containers:  "vendor"

@@ -1,0 +1,5 @@
+name:  "RELEASE_PACKAGE_TZDATA_MODULE"
+namespace:  "android_UNKNOWN"
+description:  "tzdata to be installed to the system image."
+workflow:  PREBUILT
+container:  ALL

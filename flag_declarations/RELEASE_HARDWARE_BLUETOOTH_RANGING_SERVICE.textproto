@@ -1,0 +1,8 @@
+name:  "RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE"
+namespace:  "android_UNKNOWN"
+description:  "Enables Bluetooth Ranging Service"
+value:  {
+  bool_value:  true
+}
+workflow:  LAUNCH
+container:  ALL

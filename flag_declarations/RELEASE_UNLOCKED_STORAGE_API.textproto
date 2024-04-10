@@ -1,0 +1,8 @@
+name:  "RELEASE_UNLOCKED_STORAGE_API"
+namespace:  "android_UNKNOWN"
+description:  "flag to enable the unlocked-only storage API's SEPolicy rules"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

@@ -1,0 +1,8 @@
+name:  "RELEASE_AVF_ENABLE_DICE_CHANGES"
+namespace:  "android_UNKNOWN"
+description:  "Enables new DICE functionality in Microdroid VMs."
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

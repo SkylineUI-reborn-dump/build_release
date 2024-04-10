@@ -1,0 +1,8 @@
+name:  "RELEASE_DEPRECATE_VNDK"
+namespace:  "android_UNKNOWN"
+description:  "feature flag to deprecate VNDK"
+value:  {
+  bool_value:  true
+}
+workflow:  LAUNCH
+container:  ALL

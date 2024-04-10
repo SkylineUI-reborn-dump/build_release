@@ -1,0 +1,8 @@
+name:  "RELEASE_AVATAR_PICKER_APP"
+namespace:  "android_UNKNOWN"
+description:  "Move User avatar picker from SettingsLib to preinstalled app."
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

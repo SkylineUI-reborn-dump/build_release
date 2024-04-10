@@ -1,0 +1,8 @@
+name:  "RELEASE_MOVE_PDFRENDERER_TO_MODULE"
+namespace:  "android_UNKNOWN"
+description:  "If true, then files are moved from platform to apex"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

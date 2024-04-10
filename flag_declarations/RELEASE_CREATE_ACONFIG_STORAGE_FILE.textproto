@@ -1,0 +1,8 @@
+name:  "RELEASE_CREATE_ACONFIG_STORAGE_FILE"
+namespace:  "android_UNKNOWN"
+description:  "Enable build system to create new aconfig storage files."
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

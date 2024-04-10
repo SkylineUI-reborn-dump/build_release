@@ -1,0 +1,8 @@
+name:  "RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE"
+namespace:  "android_UNKNOWN"
+description:  "The behavior for the tree wrt building mainline modules or using prebuilts"
+value:  {
+  bool_value:  true
+}
+workflow:  LAUNCH
+container:  ALL

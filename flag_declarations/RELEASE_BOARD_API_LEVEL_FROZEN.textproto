@@ -1,0 +1,8 @@
+name:  "RELEASE_BOARD_API_LEVEL_FROZEN"
+namespace:  "android_UNKNOWN"
+description:  "Set to True to freeze the board API level with vendor FRC"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

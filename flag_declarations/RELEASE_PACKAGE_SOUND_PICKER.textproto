@@ -1,0 +1,6 @@
+name:  "RELEASE_PACKAGE_SOUND_PICKER"
+value:  {
+  string_value:  "SoundPicker"
+}
+workflow:  PREBUILT
+container:  ALL

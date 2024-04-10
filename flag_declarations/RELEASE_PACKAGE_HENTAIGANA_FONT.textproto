@@ -1,0 +1,6 @@
+name:  "RELEASE_PACKAGE_HENTAIGANA_FONT"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  SYSTEM

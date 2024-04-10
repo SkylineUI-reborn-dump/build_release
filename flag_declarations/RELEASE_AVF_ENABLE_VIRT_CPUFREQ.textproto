@@ -1,0 +1,6 @@
+name:  "RELEASE_AVF_ENABLE_VIRT_CPUFREQ"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

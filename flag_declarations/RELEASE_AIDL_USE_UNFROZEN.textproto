@@ -1,0 +1,6 @@
+name:  "RELEASE_AIDL_USE_UNFROZEN"
+value:  {
+  bool_value:  true
+}
+workflow:  LAUNCH
+container:  ALL

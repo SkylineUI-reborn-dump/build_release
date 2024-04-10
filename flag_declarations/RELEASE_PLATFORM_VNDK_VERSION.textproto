@@ -1,0 +1,6 @@
+name:  "RELEASE_PLATFORM_VNDK_VERSION"
+value:  {
+  string_value:  "35"
+}
+workflow:  MANUAL
+container:  ALL

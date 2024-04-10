@@ -1,0 +1,6 @@
+name:  "RELEASE_AVF_ALLOW_PREINSTALLED_APPS"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  SYSTEM

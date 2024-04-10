@@ -1,0 +1,6 @@
+name:  "RELEASE_PLATFORM_SDK_EXTENSION_VERSION"
+value:  {
+  string_value:  "7"
+}
+workflow:  MANUAL
+container:  ALL

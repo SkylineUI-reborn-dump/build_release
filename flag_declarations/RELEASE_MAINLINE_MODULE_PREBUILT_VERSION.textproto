@@ -1,0 +1,6 @@
+name:  "RELEASE_MAINLINE_MODULE_PREBUILT_VERSION"
+value:  {
+  string_value:  "mainline_module_prebuilt_nightly"
+}
+workflow:  PREBUILT
+container:  ALL

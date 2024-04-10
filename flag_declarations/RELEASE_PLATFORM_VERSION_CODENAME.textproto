@@ -1,0 +1,6 @@
+name:  "RELEASE_PLATFORM_VERSION_CODENAME"
+value:  {
+  string_value:  "VanillaIceCream"
+}
+workflow:  MANUAL
+container:  ALL

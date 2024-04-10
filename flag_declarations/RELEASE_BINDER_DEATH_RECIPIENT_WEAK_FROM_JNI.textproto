@@ -1,0 +1,6 @@
+name:  "RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

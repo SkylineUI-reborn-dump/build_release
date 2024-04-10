@@ -1,0 +1,6 @@
+name:  "RELEASE_PLATFORM_SECURITY_PATCH"
+value:  {
+  string_value:  "2023-12-05"
+}
+workflow:  MANUAL
+container:  ALL

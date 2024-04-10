@@ -1,0 +1,6 @@
+name:  "RELEASE_SELINUX_DATA_DATA_IGNORE"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

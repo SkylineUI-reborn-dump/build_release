@@ -1,0 +1,6 @@
+name:  "RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE"
+value:  {
+  bool_value:  true
+}
+workflow:  LAUNCH
+container:  ALL

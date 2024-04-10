@@ -1,0 +1,6 @@
+name:  "RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

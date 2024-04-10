@@ -1,0 +1,6 @@
+name:  "RELEASE_CRASHRECOVERY_MODULE"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

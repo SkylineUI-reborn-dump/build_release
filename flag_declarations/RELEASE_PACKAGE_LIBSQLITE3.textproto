@@ -1,0 +1,6 @@
+name:  "RELEASE_PACKAGE_LIBSQLITE3"
+value:  {
+  string_value:  "3420000"
+}
+workflow:  PREBUILT
+container:  SYSTEM

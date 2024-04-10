@@ -1,0 +1,6 @@
+name:  "RELEASE_PLATFORM_VERSION"
+value:  {
+  string_value:  "ZP1A"
+}
+workflow:  MANUAL
+container:  ALL

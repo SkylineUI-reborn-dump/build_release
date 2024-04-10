@@ -1,0 +1,6 @@
+name:  "RELEASE_MOVE_PDFRENDERER_TO_MODULE"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

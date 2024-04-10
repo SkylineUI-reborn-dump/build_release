@@ -1,0 +1,6 @@
+name:  "RELEASE_PACKAGE_EMOJI_FONT_VERSION"
+value:  {
+  string_value:  "2.042"
+}
+workflow:  PREBUILT
+container:  SYSTEM

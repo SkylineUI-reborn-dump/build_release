@@ -1,0 +1,6 @@
+name:  "RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE"
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+container:  ALL

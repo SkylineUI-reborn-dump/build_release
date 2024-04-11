@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a34fa98_0ea061a8",
+        "filename": "build_flags.scl",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1318142
+      },
+      "writtenOn": "2024-04-11T05:39:04Z",
+      "side": 1,
+      "message": "ANDROID?",
+      "range": {
+        "startLine": 138,
+        "startChar": 29,
+        "endLine": 138,
+        "endChar": 35
+      },
+      "revId": "8edf95aff812c39ea43c792a1d11d91da5da0737",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

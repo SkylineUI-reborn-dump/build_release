@@ -134,6 +134,9 @@ flags = [
     # This flag will control of including Japanese variant (Hentaigana) font.
     flag("RELEASE_PACKAGE_HENTAIGANA_FONT", SYSTEM, False),
 
+    # b/301631861: Flag to enable punching holes in apks and shared libs
+    flag("RELEASE_PACKAGE_LIBANDROID_RUNTIME_PUNCH_HOLES", ALL, False),
+
     # The sqlite release.
     flag("RELEASE_PACKAGE_LIBSQLITE3", SYSTEM, "3420000"),
 
@@ -154,6 +157,11 @@ flags = [
 
     # The name of the virtual camera package to add to the system partition.
     flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
+
+    # Used to set minimum supported target sdk version. Apps targeting sdk
+    # version lower than the set value will result in a warning being shown
+    # when any activity from the app is started.
+    flag("RELEASE_PLATFORM_MIN_SUPPORTED_TARGET_SDK_VERSION", SYSTEM, "28"),
 
     # The sdk extension version of this release configuration.
     flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "7"),

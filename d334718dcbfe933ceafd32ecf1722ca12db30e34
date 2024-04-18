@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a97f6eaa_adbcbb92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1623611
+      },
+      "writtenOn": "2024-04-18T15:01:49Z",
+      "side": 1,
+      "message": "This will be committed after the corresponding CL in main; a Merged-In clause will resolve the automerger conflicts.",
+      "revId": "d334718dcbfe933ceafd32ecf1722ca12db30e34",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

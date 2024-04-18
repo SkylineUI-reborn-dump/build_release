@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "088d1cbd_3e1309f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1956258
+      },
+      "writtenOn": "2024-04-18T14:25:28Z",
+      "side": 1,
+      "message": "This flag was enabled on 4/11 and it has been stable so far. Please approve advancement to trunk.",
+      "revId": "f07a022c68c323d592d95c74e180c19b514193f3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

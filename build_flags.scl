@@ -69,6 +69,9 @@ flags = [
     # Enables running multiple payloads in the same Microdroid VM instance.
     flag("RELEASE_AVF_ENABLE_MULTI_TENANT_MICRODROID_VM", SYSTEM, False),
 
+    # Enables network functionality in VMs managed by AVF.
+    flag("RELEASE_AVF_ENABLE_NETWORK", ALL, False),
+
     # Enables pVM remote attestation in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_REMOTE_ATTESTATION", ALL, False),
 

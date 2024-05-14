@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc3ae33f_91ee1fb2",
+        "filename": "build_flags.scl",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2024-05-14T09:23:14Z",
+      "side": 1,
+      "message": "Same comment as below",
+      "range": {
+        "startLine": 72,
+        "startChar": 6,
+        "endLine": 72,
+        "endChar": 57
+      },
+      "revId": "7b192369199434bda633ec9bf8a98bc2a3e10a45",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbcdd215_3c479de0",
+        "filename": "flag_declarations/RELEASE_AVF_ENABLE_NETWORK.textproto",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2024-05-14T09:23:14Z",
+      "side": 1,
+      "message": "This flag doesn\u0027t enable networking in VMs, the decision is still made on per-VM basis.\n\nConsider rephrasing into \"Adds supports for network functionality in VMs\"",
+      "range": {
+        "startLine": 3,
+        "startChar": 14,
+        "endLine": 3,
+        "endChar": 65
+      },
+      "revId": "7b192369199434bda633ec9bf8a98bc2a3e10a45",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71ced620_4d53a93e",
+        "filename": "flag_declarations/RELEASE_AVF_ENABLE_NETWORK.textproto",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2024-05-14T09:23:14Z",
+      "side": 1,
+      "message": "Why all these containers? Isn\u0027t this system-only flag?",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 20
+      },
+      "revId": "7b192369199434bda633ec9bf8a98bc2a3e10a45",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

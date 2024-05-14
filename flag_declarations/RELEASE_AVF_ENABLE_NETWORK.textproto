@@ -1,0 +1,11 @@
+name: "RELEASE_AVF_ENABLE_NETWORK"
+namespace: "android_UNKNOWN"
+description: "Enables network functionality in VMs managed by AVF."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

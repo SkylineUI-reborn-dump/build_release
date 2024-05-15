@@ -69,6 +69,23 @@
       "parentUuid": "df3bec8d_ff991d38",
       "revId": "501cd09cb52ca790a50ada71905072a4b53cffca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8cbd982_7922538d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-05-15T18:52:39Z",
+      "side": 1,
+      "message": "next is not a valid release config in build/release.  You need to use vendor/google_shared/build/release.",
+      "revId": "501cd09cb52ca790a50ada71905072a4b53cffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

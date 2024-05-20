@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d85bb54_c98e950b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-05-20T16:09:57Z",
+      "side": 1,
+      "message": "This needs to be done in vendor/google_shared/build/release.",
+      "revId": "fdb9d31f6cfffc8caf8c097d55fbf865c636a083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

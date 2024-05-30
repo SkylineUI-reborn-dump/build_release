@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fd829010_be1cd2bc",
+        "filename": "automotive/build_config/fail.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-05-30T15:53:46Z",
+      "side": 1,
+      "message": "AP2A (et al) are the last releases using starlark.  The plan is a bulk edit (probably by me) to delete all of the legacy files sometime after that is published.\n\nYou **could** drop all of that from here, with the side effect that anytime product config says `PRODUCT_RELEASE_CONFIG_MAPS +\u003d build/release/automotive/release_config_map.textproto`, that product would only be able to use the new data structure.\n\nAt this point, I don\u0027t see us reverting to the old format: go ahead and drop all of the `.mk` and `.scl` files under `automotive/`.",
+      "parentUuid": "2736fff0_4209aa9f",
+      "revId": "f3b45d24e91670fb2cebb68d118494042a6dfedb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0f600c21_aa47671b",
         "filename": "automotive/release_config_map.textproto",
         "patchSetId": 1
@@ -37,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0be5b8bf_726d920d",
+        "filename": "automotive/release_config_map.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-05-30T15:53:46Z",
+      "side": 1,
+      "message": "the code in `platform/build/core/release_config.mk` currently looks for the corresponding `.textproto` file.  If you set PRODUCT_RELEASE_CONFIG_MAPS to a .textproto file, then we are forced to use protobuf.\n\nIn keeping with the comment on `fail.scl`, say `PRODUCT_RELEASE_CONFIG_MAPS +\u003d build/release/automotive/release_config_map.textproto`",
+      "parentUuid": "0f600c21_aa47671b",
+      "revId": "f3b45d24e91670fb2cebb68d118494042a6dfedb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "94e02634_19c04748",
         "filename": "automotive/release_configs/trunk_staging.textproto",
         "patchSetId": 1
@@ -48,6 +84,30 @@
       "writtenOn": "2024-05-30T15:29:45Z",
       "side": 1,
       "message": "can the name be reused here or I need automotive_trunk_staging and either way I think I want this to inherit from the main trunk staging. Thus to link everything should I:\n\nname:automotive_trunk_staging\ninherit:trunk_staging\n\n\nThen in vendor/google/automotive/release_configs have to map again or leaving it as is give me what I think I want which is internal trunk_staging plus the auto stuff which how it\u0027s currently configured (basically I don\u0027t want to change the root we have there by adding this config)",
+      "range": {
+        "startLine": 1,
+        "startChar": 7,
+        "endLine": 1,
+        "endChar": 20
+      },
+      "revId": "f3b45d24e91670fb2cebb68d118494042a6dfedb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0abbbad4_cb74235e",
+        "filename": "automotive/release_configs/trunk_staging.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-05-30T15:53:46Z",
+      "side": 1,
+      "message": "[Not answering the question: the `name` here **must** match the filename where we found the protobuf, or you get a build error.]\n\nThe bigger discussion we should have is whether you:\n1. override things in trunk_staging whenever anyone uses your lunch product, or\n2. use your own release config which inherits from trunk_staging and then devs can choose if they are lunching your product on platform\u0027s `trunk_staging`, or your own `automotive_trunk_staging`.\n\nIf option 2 makes no sense, then you have a pretty good argument for why option 1 is the right approach.  Of course, any pre-/post-submit testing configs should reflect that decision.",
+      "parentUuid": "94e02634_19c04748",
       "range": {
         "startLine": 1,
         "startChar": 7,

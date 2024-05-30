@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2736fff0_4209aa9f",
+        "filename": "automotive/build_config/fail.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1283396
+      },
+      "writtenOn": "2024-05-30T15:29:45Z",
+      "side": 1,
+      "message": "Given there\u0027s no content yet should I just skip the mk part of this altogether",
+      "revId": "f3b45d24e91670fb2cebb68d118494042a6dfedb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f600c21_aa47671b",
+        "filename": "automotive/release_config_map.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1283396
+      },
+      "writtenOn": "2024-05-30T15:29:45Z",
+      "side": 1,
+      "message": "how do I link this in to the build so that we can define our lunch targets correctly aka what\u0027s the equivalent of:\n\nPRODUCT_RELEASE_CONFIG_MAPS +\u003d vendor/google/release/automotive/release_config_map.mk\n\nin the new setup",
+      "revId": "f3b45d24e91670fb2cebb68d118494042a6dfedb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94e02634_19c04748",
+        "filename": "automotive/release_configs/trunk_staging.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1283396
+      },
+      "writtenOn": "2024-05-30T15:29:45Z",
+      "side": 1,
+      "message": "can the name be reused here or I need automotive_trunk_staging and either way I think I want this to inherit from the main trunk staging. Thus to link everything should I:\n\nname:automotive_trunk_staging\ninherit:trunk_staging\n\n\nThen in vendor/google/automotive/release_configs have to map again or leaving it as is give me what I think I want which is internal trunk_staging plus the auto stuff which how it\u0027s currently configured (basically I don\u0027t want to change the root we have there by adding this config)",
+      "range": {
+        "startLine": 1,
+        "startChar": 7,
+        "endLine": 1,
+        "endChar": 20
+      },
+      "revId": "f3b45d24e91670fb2cebb68d118494042a6dfedb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "461ff850_59191e06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2024-05-31T01:17:26Z",
+      "side": 1,
+      "message": "Submitting to AOSP due to aosp-first comment.",
+      "revId": "cf7dbc1a178b329c2d25a52c4480bdbc72d81b54",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

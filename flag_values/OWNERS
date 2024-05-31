@@ -1,0 +1,3 @@
+per-file trunk_staging/*.textproto=aaronding@google.com # For Pixel vendor staging promotion requests
+per-file trunk_staging/*.textproto=cyanhsieh@google.com # For Pixel vendor staging promotion requests
+per-file trunk_staging/*.textproto=wangjj@google.com # For Pixel vendor staging promotion requests

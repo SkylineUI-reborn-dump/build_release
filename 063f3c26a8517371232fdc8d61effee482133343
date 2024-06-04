@@ -16,6 +16,24 @@
       "message": "I\u0027m not sure if separate keys, or one key with multiple values, would be best here.  We can revisit that if/when we find a need to have more than these 4.",
       "revId": "063f3c26a8517371232fdc8d61effee482133343",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2511d045_7b92d37b",
+        "filename": "build_config/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2024-06-04T23:36:29Z",
+      "side": 1,
+      "message": "As they are installed in different partitions that are in the different API surfaces, they must not be in a single module.\nSo I defined each module and include them to each partition without dependency.",
+      "parentUuid": "830ad990_bb3162fa",
+      "revId": "063f3c26a8517371232fdc8d61effee482133343",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

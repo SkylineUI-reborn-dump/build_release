@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "830ad990_bb3162fa",
+        "filename": "build_config/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-06-04T19:07:00Z",
+      "side": 1,
+      "message": "I\u0027m not sure if separate keys, or one key with multiple values, would be best here.  We can revisit that if/when we find a need to have more than these 4.",
+      "revId": "063f3c26a8517371232fdc8d61effee482133343",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

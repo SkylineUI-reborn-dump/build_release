@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd3ac188_e7f4869f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-06-06T01:36:25Z",
+      "side": 1,
+      "message": "Can you take a look?\n\nThis build flag is not intended to be shipped in 24Q3.\n\nThank you.",
+      "revId": "b69bf8d1750e07e0a3fa833877d8872720f59090",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

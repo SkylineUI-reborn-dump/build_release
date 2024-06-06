@@ -34,6 +34,24 @@
       "parentUuid": "830ad990_bb3162fa",
       "revId": "063f3c26a8517371232fdc8d61effee482133343",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "145449d3_92cfaeee",
+        "filename": "build_config/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-06-06T17:54:52Z",
+      "side": 1,
+      "message": "I was speaking more about the module properties: `system_ext_specific: true` vs `specific_to: \"system_ext\"`.  Again, not a big deal, and if it needs to change we can change it once there is a need to do so.",
+      "parentUuid": "2511d045_7b92d37b",
+      "revId": "063f3c26a8517371232fdc8d61effee482133343",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

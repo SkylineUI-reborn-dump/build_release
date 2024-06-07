@@ -52,6 +52,24 @@
       "parentUuid": "2511d045_7b92d37b",
       "revId": "063f3c26a8517371232fdc8d61effee482133343",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81705e8a_64e58e6f",
+        "filename": "build_config/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2024-06-07T03:01:13Z",
+      "side": 1,
+      "message": "Ah, I see. Even if we define `specific_to: \"system_ext\"`, that must set the base module property `system_ext_specific: true` to be installed in the system_ext partition.\n\nIf we define the `build_flag_json` module for some other partition, for example, `device_specific: true` for odm partition, the build will fail with missing build_flags_odm.json file in `out/soong/release-config`. So we may easily extend this to more partitions just by updating the soong command to generate more json files.",
+      "parentUuid": "145449d3_92cfaeee",
+      "revId": "063f3c26a8517371232fdc8d61effee482133343",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9052475_1959ce9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-06-13T23:07:00Z",
+      "side": 1,
+      "message": "If submitted, this file will be ignored, since `trunk` does not exist in `platform/build/release`.  You need to make this change on the internal gerrit instance, in `platform/vendor/google_shared/build/release` for it to be effective.",
+      "revId": "d8894591c54f8071c42d137569bdf8e4449297ae",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

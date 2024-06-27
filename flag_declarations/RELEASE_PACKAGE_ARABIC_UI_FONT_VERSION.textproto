@@ -1,0 +1,8 @@
+name: "RELEASE_PACKAGE_ARABIC_UI_FONT_VERSION"
+namespace: "android_UNKNOWN"
+description: "Version of the Arabic UI font file."
+value: {
+  string_value: "1.08"
+}
+workflow: PREBUILT
+containers: "system"

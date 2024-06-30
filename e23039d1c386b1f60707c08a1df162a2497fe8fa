@@ -16,6 +16,23 @@
       "message": "As discussed elsewhere.",
       "revId": "e23039d1c386b1f60707c08a1df162a2497fe8fa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "171d5134_a0c229d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3505691
+      },
+      "writtenOn": "2024-06-30T01:00:08Z",
+      "side": 1,
+      "message": "https://ci.android.com/builds/branches/aosp-main/grid?head\u003d12033094\u0026tail\u003d12033094",
+      "revId": "e23039d1c386b1f60707c08a1df162a2497fe8fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [

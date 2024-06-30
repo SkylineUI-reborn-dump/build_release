@@ -33,6 +33,41 @@
       "message": "https://ci.android.com/builds/branches/aosp-main/grid?head\u003d12033094\u0026tail\u003d12033094",
       "revId": "e23039d1c386b1f60707c08a1df162a2497fe8fa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f3114f4_0bc5991e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3505691
+      },
+      "writtenOn": "2024-06-30T01:05:15Z",
+      "side": 1,
+      "message": "\u003e https://ci.android.com/builds/branches/aosp-main/grid?head\u003d12033094\u0026tail\u003d12033094",
+      "parentUuid": "171d5134_a0c229d0",
+      "revId": "e23039d1c386b1f60707c08a1df162a2497fe8fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81e8407c_0241323e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3505691
+      },
+      "writtenOn": "2024-06-30T01:05:15Z",
+      "side": 1,
+      "message": "https://android-review.googlesource.com/c/platform/build/release/+/3151778/comments/171d5134_a0c229d0",
+      "revId": "e23039d1c386b1f60707c08a1df162a2497fe8fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [

@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6cf69d0_ad12530b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-07-09T15:52:26Z",
+      "side": 1,
+      "message": "This change only creates the flags, and sets them both to `1.08`.  Presumably a subsequent CL will set the `2.x` values for trunk_staging?\n\nAI: either change the commit message, or add the `flag_values/trunk_staging/{NAME}.textproto` files to this CL.  Either way is fine.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 33
+      },
+      "revId": "11266c948f72b4958ce99aed7ace909433aa013d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "a1b58e1c_aebdc31b",

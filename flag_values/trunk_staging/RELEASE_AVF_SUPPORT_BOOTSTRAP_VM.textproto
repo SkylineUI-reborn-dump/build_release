@@ -1,0 +1,4 @@
+name: "RELEASE_AVF_SUPPORT_BOOTSTRAP_VM"
+value: {
+  bool_value: true
+}

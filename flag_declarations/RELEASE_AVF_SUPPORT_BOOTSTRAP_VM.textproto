@@ -1,0 +1,8 @@
+name: "RELEASE_AVF_SUPPORT_BOOTSTRAP_VM"
+namespace: "android_UNKNOWN"
+description: "Adds supports for bootstrap VMs, available in the early boot."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

@@ -34,6 +34,24 @@
       "parentUuid": "3d1243b4_765dcf70",
       "revId": "79652a6b9e9e63162933efc707321a85b9f9f13a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0e47ec1_ffafb8e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2024-08-05T21:35:33Z",
+      "side": 1,
+      "message": "Ah, I didn\u0027t see this CL, so I created https://r.android.com/3206976 that incorporates this and other changes to sync up the flags in AOSP.",
+      "parentUuid": "4a1e7220_d4dd1eb6",
+      "revId": "79652a6b9e9e63162933efc707321a85b9f9f13a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

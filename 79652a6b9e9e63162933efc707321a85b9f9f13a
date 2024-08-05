@@ -16,6 +16,24 @@
       "message": "Jiakai / Martin, PTAL. This cherrypicks art flags from internal to AOSP. This is the first step in making it easier to locally change the aconfig readonly flags in AOSP tree. In the followup CL, we can add an empty proto and include it in the Android.bp file so we just need to add our flag values that we want to set for local testing.",
       "revId": "79652a6b9e9e63162933efc707321a85b9f9f13a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a1e7220_d4dd1eb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1884045
+      },
+      "writtenOn": "2024-08-05T14:58:13Z",
+      "side": 1,
+      "message": "Thanks. You\u0027ll need to copy the Android.bp file from internal to AOSP.",
+      "parentUuid": "3d1243b4_765dcf70",
+      "revId": "79652a6b9e9e63162933efc707321a85b9f9f13a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

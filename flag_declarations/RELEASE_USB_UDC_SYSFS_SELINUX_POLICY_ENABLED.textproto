@@ -1,0 +1,9 @@
+name: "RELEASE_USB_UDC_SYSFS_SELINUX_POLICY_ENABLED"
+namespace: "system_sw_usb"
+description: "Guard the reference to selinux sysfs_udc type introduced in aosp/3163782 for board API 202504."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "vendor"
+containers: "system"

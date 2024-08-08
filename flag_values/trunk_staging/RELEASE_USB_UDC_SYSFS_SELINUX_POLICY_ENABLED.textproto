@@ -1,0 +1,4 @@
+name:  "RELEASE_USB_UDC_SYSFS_SELINUX_POLICY_ENABLED"
+value:  {
+  bool_value:  true
+}

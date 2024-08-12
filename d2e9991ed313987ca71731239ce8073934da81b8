@@ -16,6 +16,23 @@
       "message": "@joeo@google.com, can you PTAL?",
       "revId": "d2e9991ed313987ca71731239ce8073934da81b8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f261d9d_058debe7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-08-12T21:59:05Z",
+      "side": 1,
+      "message": "Hey. I\u0027d rather not give out OWNERS here.  It just opens the door for more merge conflicts.  Gantry is supposed to be supporting AOSP soon-ish as I understand it.",
+      "revId": "d2e9991ed313987ca71731239ce8073934da81b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

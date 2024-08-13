@@ -33,6 +33,24 @@
       "message": "Hey. I\u0027d rather not give out OWNERS here.  It just opens the door for more merge conflicts.  Gantry is supposed to be supporting AOSP soon-ish as I understand it.",
       "revId": "d2e9991ed313987ca71731239ce8073934da81b8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a2a153d_daf782c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1884045
+      },
+      "writtenOn": "2024-08-13T10:04:35Z",
+      "side": 1,
+      "message": "Hey Joe, our understanding is that we\u0027ll not get the AOSP support in a foreseeable future, so we\u0027ll have to keep doing manual cherry-picks. Please see https://buganizer.corp.google.com/issues/356154185#comment2.",
+      "parentUuid": "8f261d9d_058debe7",
+      "revId": "d2e9991ed313987ca71731239ce8073934da81b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

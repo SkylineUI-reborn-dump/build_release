@@ -51,6 +51,24 @@
       "parentUuid": "8f261d9d_058debe7",
       "revId": "d2e9991ed313987ca71731239ce8073934da81b8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d3615b1_566c1043",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2024-08-14T09:40:14Z",
+      "side": 1,
+      "message": "Yes, as he said.\n\nOur process will be to first flip flags in Gantry, then cherry-pick those CLs here. That way there should be no risk of merge conflicts.\n\nJoe, if you prefer I can restrict the list of owners to the members of the Mainline/release subteam (4 people) within ART - we are all well acquainted with the processes. WDYT?",
+      "parentUuid": "1a2a153d_daf782c0",
+      "revId": "d2e9991ed313987ca71731239ce8073934da81b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

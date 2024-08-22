@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab8b95de_03d2ce28",
+        "filename": "flag_declarations/RELEASE_BPF_ENABLE_LIBBPF.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-08-22T22:15:46Z",
+      "side": 1,
+      "message": "if there is a Gantry namespace defined for the project, it should be used here.  If not, no big deal (for now).",
+      "range": {
+        "startLine": 2,
+        "startChar": 13,
+        "endLine": 2,
+        "endChar": 28
+      },
+      "revId": "f7ade3118168fbc69f94f7b8fa3c10d9bc9aef4d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a444164_473a3f38",
+        "filename": "flag_declarations/RELEASE_BPF_ENABLE_LIBBPF.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-08-22T22:15:46Z",
+      "side": 1,
+      "message": "not actually needed.  But again, not a big deal.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "f7ade3118168fbc69f94f7b8fa3c10d9bc9aef4d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

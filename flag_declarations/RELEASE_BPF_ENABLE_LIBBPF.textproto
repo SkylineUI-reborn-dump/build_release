@@ -1,0 +1,8 @@
+name:  "RELEASE_BPF_ENABLE_LIBBPF"
+namespace:  "android_UNKNOWN"
+description:  "Enables Libbpf support in bpfloader."
+value:  {
+  bool_value:  false
+}
+workflow:  LAUNCH
+containers:  "system"

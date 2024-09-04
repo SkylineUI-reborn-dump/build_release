@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee4d719a_bf0c50ac",
+        "filename": "flag_declarations/RELEASE_USE_TRANSITIVE_JARS_IN_CLASSPATH.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-04T20:18:34Z",
+      "side": 1,
+      "message": "not strictly necessary.  The default value is equivalent (empty string in both cases).",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "65dfba423d8acef481ea2cdaf5231fb719a410f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

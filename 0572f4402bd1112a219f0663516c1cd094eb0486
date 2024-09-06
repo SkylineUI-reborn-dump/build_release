@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ffb5f87_3173a761",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1623611
+      },
+      "writtenOn": "2024-09-06T19:26:12Z",
+      "side": 1,
+      "message": "The format looks good.  May want a libbinder OWNER to approve advancing the flag.",
+      "revId": "0572f4402bd1112a219f0663516c1cd094eb0486",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

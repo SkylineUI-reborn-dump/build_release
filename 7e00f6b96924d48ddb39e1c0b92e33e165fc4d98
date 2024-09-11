@@ -16,6 +16,23 @@
       "message": "Seungjae, this still has to be approved by the owners, not me.",
       "revId": "7e00f6b96924d48ddb39e1c0b92e33e165fc4d98",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fc01cdc_fbd3f947",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-11T19:23:35Z",
+      "side": 1,
+      "message": "This flag should be advanced internally first, and then CPed to aosp.",
+      "revId": "7e00f6b96924d48ddb39e1c0b92e33e165fc4d98",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

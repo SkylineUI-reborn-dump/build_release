@@ -1,0 +1,8 @@
+name:  "RELEASE_RANGING_STACK"
+namespace:  "android_UNKNOWN"
+description:  "b/331206299: Flag to add new generic ranging API surface"
+value:  {
+  bool_value: false
+}
+workflow:  LAUNCH
+containers:  "system"

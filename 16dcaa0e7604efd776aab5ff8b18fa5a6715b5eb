@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d1f4e81_39702b33",
+        "filename": "flag_declarations/RELEASE_USE_OPTIMIZED_RESOURCE_SHRINKING_BY_DEFAULT.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2024-09-12T17:12:48Z",
+      "side": 1,
+      "message": "I\u0027ve been told this part is unnecessary, an empty bool flag defaults to false.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "16dcaa0e7604efd776aab5ff8b18fa5a6715b5eb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

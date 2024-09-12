@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff0e800e_92e687f4",
+        "filename": "flag_declarations/RELEASE_RANGING_STACK.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-12T23:37:54Z",
+      "side": 1,
+      "message": "If the project for this flag has a mendel namespace, that should be used here to avoid future toil.  If you don\u0027t have a mendel namespace, `android_UNKNOWN` is the correct value at this time.",
+      "range": {
+        "startLine": 2,
+        "startChar": 13,
+        "endLine": 2,
+        "endChar": 28
+      },
+      "revId": "160daf09d2586c0c57ba278843059e273c10d49f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd61e5e7_b86f3387",
+        "filename": "flag_declarations/RELEASE_RANGING_STACK.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-12T23:37:54Z",
+      "side": 1,
+      "message": "these lines are not strictly necessary: by default, the value will be false (represented by the empty string).",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "160daf09d2586c0c57ba278843059e273c10d49f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01d5b1a1_82db72bc",
+        "filename": "flag_declarations/RELEASE_RANGING_STACK.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-12T23:37:54Z",
+      "side": 1,
+      "message": "`LAUNCH` (boolean feature launch flag) not `PREBUILT` (path component to a prebuilt).",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 19
+      },
+      "revId": "160daf09d2586c0c57ba278843059e273c10d49f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

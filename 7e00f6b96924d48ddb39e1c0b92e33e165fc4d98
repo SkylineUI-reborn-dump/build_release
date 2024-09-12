@@ -33,6 +33,24 @@
       "message": "This flag should be advanced internally first, and then CPed to aosp.",
       "revId": "7e00f6b96924d48ddb39e1c0b92e33e165fc4d98",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb8f6b51_e6ebf0fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1950816
+      },
+      "writtenOn": "2024-09-12T02:15:11Z",
+      "side": 1,
+      "message": "Ack. Abandoning this change.",
+      "parentUuid": "3fc01cdc_fbd3f947",
+      "revId": "7e00f6b96924d48ddb39e1c0b92e33e165fc4d98",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

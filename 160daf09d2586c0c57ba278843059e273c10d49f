@@ -71,6 +71,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b5f1316_42073fea",
+        "filename": "flag_declarations/RELEASE_RANGING_STACK.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1895602
+      },
+      "writtenOn": "2024-09-13T20:07:49Z",
+      "side": 1,
+      "message": "Done. It was failing without this change.",
+      "parentUuid": "cd61e5e7_b86f3387",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "160daf09d2586c0c57ba278843059e273c10d49f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "01d5b1a1_82db72bc",

@@ -22,6 +22,30 @@
       },
       "revId": "09dbd5a1efb203ef60757588238cee7968b726f0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "baea9489_11e330b6",
+        "filename": "flag_declarations/RELEASE_BUILD_OBJECT_SIZE_SANITIZER.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2024-09-17T18:30:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "feed9057_2ea10dd4",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "09dbd5a1efb203ef60757588238cee7968b726f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c66bab06_77bac5ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-17T19:21:25Z",
+      "side": 1,
+      "message": "Where will this flag be consumed?  From the name, I would expect that it\u0027s affecting the actual build, so a build flag makes sense.",
+      "revId": "ff03a35092069020c4ee232ed8192f339abca0c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea781efc_98b72db9",
+        "filename": "flag_values/trunk_staging/RELEASE_USE_OPTIMIZED_RESOURCE_SHRINKING_BY_DEFAULT.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-18T15:40:25Z",
+      "side": 1,
+      "message": "A bit surprised we\u0027re not seeing any artifact size changes with this? https://screenshot.googleplex.com/6Zr4j5z4vmxSqb4\n\nOr maybe that presubmit run didn\u0027t include the preceding change that patched it into soong?",
+      "range": {
+        "startLine": 3,
+        "startChar": 14,
+        "endLine": 3,
+        "endChar": 18
+      },
+      "revId": "e10608bdd99c84fd23402ec670477e9b0986795a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

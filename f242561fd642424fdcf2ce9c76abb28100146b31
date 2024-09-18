@@ -34,6 +34,23 @@
       "parentUuid": "3b323437_24e4f510",
       "revId": "f242561fd642424fdcf2ce9c76abb28100146b31",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17e615d2_36cccb92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-18T20:57:43Z",
+      "side": 1,
+      "message": "Looking deeper, I see aosp/3259736, which I haven\u0027t synced yet.",
+      "revId": "f242561fd642424fdcf2ce9c76abb28100146b31",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

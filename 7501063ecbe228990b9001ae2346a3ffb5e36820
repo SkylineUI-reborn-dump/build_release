@@ -163,6 +163,24 @@
       "parentUuid": "a1cc9120_d6339bef",
       "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85d6ce43_1bfb425d",
+        "filename": "flag_declarations/RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-20T23:19:08Z",
+      "side": 1,
+      "message": "Thanks LaMont, I think that sums it up nicely, and agree that `MANUAL` gives us the closest semantics to what we want, at least for now. We can always swap out later if we want the global default on everywhere.",
+      "parentUuid": "ee5b464a_f72d78e4",
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

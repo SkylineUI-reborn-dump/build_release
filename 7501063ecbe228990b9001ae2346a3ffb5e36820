@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9986a0f4_38dfc346",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-20T22:17:46Z",
+      "side": 1,
+      "message": "is this the correct `Flag:` footer?",
+      "range": {
+        "startLine": 17,
+        "startChar": 12,
+        "endLine": 17,
+        "endChar": 52
+      },
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "29a01d9a_70df8651",
@@ -14,6 +37,46 @@
       "writtenOn": "2024-09-20T16:47:08Z",
       "side": 1,
       "message": "For follow-up, I have two different approaches for specifying the features as RELEASE build flags, but we\u0027ll still want this global toggle.",
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20abd8b2_5355296c",
+        "filename": "flag_declarations/RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-20T22:17:46Z",
+      "side": 1,
+      "message": "Nit: not needed for boolean flags.  the default (empty string) is also how false is represented.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20d8039c_bcc7fae4",
+        "filename": "flag_declarations/RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-20T22:17:46Z",
+      "side": 1,
+      "message": "MANUAL would make sense if trunk or trunk_staging were going to behave differently than actual releases (aka \"next\").  If this is a flag that is going to ramp up and then be enabled everywhere (\"Actually use the system feature flags\"), then it should be a LAUNCH workflow.\n\nAfter glancing at the bug, this feels more like `workflow: LAUNCH`.",
       "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }

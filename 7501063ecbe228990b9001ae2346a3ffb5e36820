@@ -145,6 +145,24 @@
       "parentUuid": "20d8039c_bcc7fae4",
       "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee5b464a_f72d78e4",
+        "filename": "flag_declarations/RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-20T23:10:22Z",
+      "side": 1,
+      "message": "It\u0027s really a question of what you are trying to ramp...  Adding lots of detail here for the benefit of future readers.\n\n- Product-specific flags allow you to declare flags and set values for only a specific collection of devices (in product config, using `PRODUCT_RELEASE_CONFIG_MAPS`)\n- Flag declarations in this directory are present in literally every Android build.\n\nFlags of both categories can/should be ramped.  The workflow speaks more to the end-state (after ramping).\n- product specific system feature build flags: definitely `workflow: MANUAL`\n- this flag:\n  - `LAUNCH` if we will eventually **always** use system feature build flags. (and remove both the code where we check and it is off, as well as the flag).  Even in this case, the flag could be ramped specifically for some products ahead of ramping it for all products.  A globally-present LAUNCH flag indicates that it will eventually be True for **ALL** devices.\n  - `MANUAL` if we will never enable this on some devices, even after it is ramped everywhere else (the flag will never be removed, the checks will always be there)  This flag then becomes a big switch that could be overridden for a collection of products (\"even if the system feature build flag is ramped, don\u0027t use it\".)\n  \nIt sounds like the intent is to keep this flag as a big switch, so MANUAL makes sense.\n\nIf I\u0027ve misstated things above, then we should chat.  If I\u0027m close to what you intend, then `MANUAL` is correct.",
+      "parentUuid": "a1cc9120_d6339bef",
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9f439ce_4b5f8e55",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-09-20T23:10:22Z",
+      "side": 1,
+      "message": "Having this as a big \"turn it off\" flag that will never go away (so that gki, etc can do that), makes it \"definitely `workflow: MANUAL`\".\n\nPlease get a CR+2 from your team, here\u0027s your Owners+1.",
+      "revId": "21a18592039cdcc3768ca98acf5a52df12a154c7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

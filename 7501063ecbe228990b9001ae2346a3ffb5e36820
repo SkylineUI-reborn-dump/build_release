@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29a01d9a_70df8651",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-20T16:47:08Z",
+      "side": 1,
+      "message": "For follow-up, I have two different approaches for specifying the features as RELEASE build flags, but we\u0027ll still want this global toggle.",
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

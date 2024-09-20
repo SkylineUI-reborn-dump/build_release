@@ -22,6 +22,30 @@
       },
       "revId": "e10608bdd99c84fd23402ec670477e9b0986795a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf0f6c9a_47875766",
+        "filename": "flag_values/trunk_staging/RELEASE_USE_OPTIMIZED_RESOURCE_SHRINKING_BY_DEFAULT.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1127078
+      },
+      "writtenOn": "2024-09-20T07:50:01Z",
+      "side": 1,
+      "message": "I needed to rebase this on top of that, rerunning presubmit now",
+      "parentUuid": "ea781efc_98b72db9",
+      "range": {
+        "startLine": 3,
+        "startChar": 14,
+        "endLine": 3,
+        "endChar": 18
+      },
+      "revId": "e10608bdd99c84fd23402ec670477e9b0986795a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

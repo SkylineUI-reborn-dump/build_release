@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "b5f64a11_6726ac2e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-20T22:49:38Z",
+      "side": 1,
+      "message": "Ah woops, fixed!",
+      "parentUuid": "9986a0f4_38dfc346",
+      "range": {
+        "startLine": 17,
+        "startChar": 12,
+        "endLine": 17,
+        "endChar": 52
+      },
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "29a01d9a_70df8651",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
@@ -64,6 +88,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0ead75f_f6591b3a",
+        "filename": "flag_declarations/RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-20T22:49:38Z",
+      "side": 1,
+      "message": "Yeah, I left it out initially, but it\u0027s kind of nice to emphasize boolean semantics in the declaration. I\u0027ll remove it as I guess the name is sufficient.",
+      "parentUuid": "20abd8b2_5355296c",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "20d8039c_bcc7fae4",
@@ -77,6 +125,24 @@
       "writtenOn": "2024-09-20T22:17:46Z",
       "side": 1,
       "message": "MANUAL would make sense if trunk or trunk_staging were going to behave differently than actual releases (aka \"next\").  If this is a flag that is going to ramp up and then be enabled everywhere (\"Actually use the system feature flags\"), then it should be a LAUNCH workflow.\n\nAfter glancing at the bug, this feels more like `workflow: LAUNCH`.",
+      "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1cc9120_d6339bef",
+        "filename": "flag_declarations/RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-20T22:49:38Z",
+      "side": 1,
+      "message": "How do the `LAUNCH` flags work if you only want to enable for select devices, and not globally? For a number of target flavors (e.g., gki), we don\u0027t want any kind of build-time system feature behavior, so we need the ability to keep it off. Suggestions? Is there a way to ramp launches separately across different device flavors or targets?\n\nI guess we could just make sure those targets don\u0027t actually set/enable any of the system features via release build flags, where these latter will be `MANUAL` per guidance from @joeo@google.com. So enabling this would effectively be a no-op. Don\u0027t feel strongly either way, let me know what you think.",
+      "parentUuid": "20d8039c_bcc7fae4",
       "revId": "7501063ecbe228990b9001ae2346a3ffb5e36820",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }

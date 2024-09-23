@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f30235e4_7b92a74f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1127078
+      },
+      "writtenOn": "2024-09-23T13:20:52Z",
+      "side": 1,
+      "message": "Colin/Morris: running locally I can reproduce that I don\u0027t see any difference when just adding the flag file, _but_ when I then go and change the android/config.go file (add a print in the method getting the flag) I see that the value is picked up and everything works. Is it possible that the same is happening here, that the build does not pick up the flag changes (and if so, how can I get it to do that to get the sizes attributed to this cl)",
+      "revId": "b16c027db8e345d02c4eefc8e9ffbbbd88dbbe39",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+name: "RELEASE_FINGERPRINT_ACONFIG_PACKAGES"
+namespace: "android_UNKNOWN"
+description: "Control using fingerprints to guard cross-package reads."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

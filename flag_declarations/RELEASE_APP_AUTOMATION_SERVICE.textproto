@@ -1,0 +1,5 @@
+name: "RELEASE_APP_AUTOMATION_SERVICE"
+namespace: "android_UNKNOWN"
+description: "Include app_automation_service in the build"
+workflow: LAUNCH
+containers: "system"

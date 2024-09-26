@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29e7d851_5389c7d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-09-26T18:07:56Z",
+      "side": 1,
+      "message": "Were you able to confirm that the broken target now fully builds successfully? Is there a go/abtd result for git_aosp-main-with-phones/aosp_cheetah-trunk_staging-userdebug with this change (assuming it\u0027s not in presubmit)?",
+      "revId": "19c0f6eb0c5b93785ec0079ffb4fec56e00bdcb4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

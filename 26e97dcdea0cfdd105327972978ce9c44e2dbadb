@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "944b0417_0b51e2d4",
+        "filename": "flag_declarations/RELEASE_FINGERPRINT_ACONFIG_PACKAGES.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-10-02T17:48:13Z",
+      "side": 1,
+      "message": "Minor nit: these lines are not needed, since `false` is represented as the empty string (which is the default value\u0027s representation.)",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "26e97dcdea0cfdd105327972978ce9c44e2dbadb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -22,6 +22,30 @@
       },
       "revId": "26e97dcdea0cfdd105327972978ce9c44e2dbadb",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53c919d3_d7d7e3a0",
+        "filename": "flag_declarations/RELEASE_FINGERPRINT_ACONFIG_PACKAGES.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3599662
+      },
+      "writtenOn": "2024-10-02T19:51:47Z",
+      "side": 1,
+      "message": "removed, thank you!",
+      "parentUuid": "944b0417_0b51e2d4",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "26e97dcdea0cfdd105327972978ce9c44e2dbadb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

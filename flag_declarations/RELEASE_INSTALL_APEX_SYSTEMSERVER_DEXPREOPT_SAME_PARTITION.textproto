@@ -1,0 +1,11 @@
+name: "RELEASE_INSTALL_APEX_SYSTEMSERVER_DEXPREOPT_SAME_PARTITION"
+namespace: "android_UNKNOWN"
+description: "If true, the dexpreopt files of apex system server jars will be installed in the same partition as the apex."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

@@ -1,0 +1,11 @@
+name:  "RELEASE_AVF_SUPPORT_UEFI_BOOT"
+namespace:  "android_UNKNOWN"
+description:  "Enables UEFI support for booting guest kernel in AVF"
+value: {
+  bool_value: false
+}
+workflow:  LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

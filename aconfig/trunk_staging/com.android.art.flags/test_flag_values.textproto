@@ -4,3 +4,9 @@ flag_value {
   state: ENABLED
   permission: READ_ONLY
 }
+flag_value {
+    package: "com.android.art.flags"
+    name: "always_enable_profile_code"
+    state: ENABLED
+    permission: READ_ONLY
+}

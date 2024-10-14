@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.libcore"
+  name: "java_method_executable_offset_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

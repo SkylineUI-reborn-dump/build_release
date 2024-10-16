@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.mediaplayerservice"
+  name: "enable_media_metadata_retriever_async_request"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -179,6 +179,7 @@ aconfig_value_set {
       "aconfig-values-platform_build_release-trunk_staging-android.app.job-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.server.alarm-all",
       "aconfig-values-platform_build_release-trunk_staging-android.media.codec-all",
+      "aconfig-values-platform_build_release-trunk_staging-android.media.mediaplayerservice-all",
       "aconfig-values-platform_build_release-trunk_staging-android.service.dreams-all",
       "aconfig-values-platform_build_release-trunk_staging-android.security.keystore2-all",
       "aconfig-values-platform_build_release-trunk_staging-com.android.adservices.flags-all",

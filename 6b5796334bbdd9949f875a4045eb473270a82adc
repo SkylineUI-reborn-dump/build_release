@@ -22,6 +22,30 @@
       },
       "revId": "6b5796334bbdd9949f875a4045eb473270a82adc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfa43f0e_048656b3",
+        "filename": "flag_declarations/RELEASE_DOCUMENTSUI_BUNDLE.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1874941
+      },
+      "writtenOn": "2024-10-16T20:50:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e34856b_bea9feda",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "6b5796334bbdd9949f875a4045eb473270a82adc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

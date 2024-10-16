@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "342c664b_577d51f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074459
+      },
+      "writtenOn": "2024-10-16T02:51:55Z",
+      "side": 1,
+      "message": "NFC test results: https://buganizer.corp.google.com/issues/368405832#comment19",
+      "revId": "747a493ed89433925b2fdf287a5fcd46cbac8bae",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

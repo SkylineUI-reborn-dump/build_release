@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e206778a_681424fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1884045
+      },
+      "writtenOn": "2024-10-16T09:52:45Z",
+      "side": 1,
+      "message": "The release config is supposed to be managed by Gantry. You can change it in your local tree for testing, but please don\u0027t submit this change.\n\nSee go/gantry-startup",
+      "revId": "4a23da6332584cfbb63923e2f51a1d84b03ec26e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

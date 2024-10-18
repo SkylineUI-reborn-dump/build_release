@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a433e1f_86b24c54",
+        "filename": "flag_declarations/RELEASE_AVF_FIX_VM_FILES_STORAGE_LOCATION_b359439878.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2024-10-18T01:43:02Z",
+      "side": 1,
+      "message": "I am surprised to see that we need a flag for a bug fix??",
+      "range": {
+        "startLine": 3,
+        "startChar": 14,
+        "endLine": 3,
+        "endChar": 23
+      },
+      "revId": "aacc9231096f894c1bfd3e4109217d1c99879f94",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -50,6 +50,23 @@
       "message": "Hi, Joe, can you take a look?\n\nThank you.",
       "revId": "bbaee7b830dd5613a2b3d5904ddee52fb3aa2ecc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25f2591e_47d825d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1315724
+      },
+      "writtenOn": "2024-10-21T06:43:30Z",
+      "side": 1,
+      "message": "What\u0027s the main difference between the 2 flags? It looks very similar, do you need to maintain 2 flags?",
+      "revId": "bbaee7b830dd5613a2b3d5904ddee52fb3aa2ecc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

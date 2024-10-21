@@ -67,6 +67,24 @@
       "message": "What\u0027s the main difference between the 2 flags? It looks very similar, do you need to maintain 2 flags?",
       "revId": "bbaee7b830dd5613a2b3d5904ddee52fb3aa2ecc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5836561_0b86ff64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-10-21T06:46:48Z",
+      "side": 1,
+      "message": "Yes, there are two emoji font files: emoji w/o flags and flag only emoji.\nDue to complicated reasoning, we split the font into two and maintain differently.\n\nIf no flags are added, we only update the emoji font only, but in this time, one flag is added, so we need to update two emoji font files altogether.",
+      "parentUuid": "25f2591e_47d825d1",
+      "revId": "bbaee7b830dd5613a2b3d5904ddee52fb3aa2ecc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

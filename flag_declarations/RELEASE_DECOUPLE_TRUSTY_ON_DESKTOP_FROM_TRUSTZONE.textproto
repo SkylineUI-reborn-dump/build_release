@@ -1,0 +1,8 @@
+name: "RELEASE_DECOUPLE_TRUSTY_ON_DESKTOP_FROM_TRUSTZONE"
+namespace: "android_UNKNOWN"
+description: "Adds supports to decouple Trusty from Trustzone on Android desktop."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

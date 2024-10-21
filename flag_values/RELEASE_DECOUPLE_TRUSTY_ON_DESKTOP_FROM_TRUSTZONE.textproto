@@ -1,0 +1,4 @@
+name: "RELEASE_DECOUPLE_TRUSTY_ON_DESKTOP_FROM_TRUSTZONE"
+value: {
+  bool_value: true
+}

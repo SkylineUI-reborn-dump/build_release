@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1304071d_56e034c3",
+        "filename": "flag_values/RELEASE_DECOUPLE_TRUSTY_ON_DESKTOP_FROM_TRUSTZONE.textproto",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-10-22T23:19:44Z",
+      "side": 1,
+      "message": "This file should be in the flag_values/trunk_staging directory",
+      "revId": "5f47ce71adb184a01181d0c73c19bbf75b396feb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eebd9193_26034d0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1127078
+      },
+      "writtenOn": "2024-10-23T10:29:56Z",
+      "side": 1,
+      "message": "runs with the fix in:\nhttps://android-build.corp.google.com/builds/abtd/run/L80300030007258923",
+      "revId": "076a581ed85f6abebc95957911c865a30e4790cd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

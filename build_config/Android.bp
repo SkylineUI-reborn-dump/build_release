@@ -17,20 +17,20 @@ package {
 }
 
 build_flags_json {
-    name: "build_flag_system",
+    name: "remove_flag_system",
 }
 
 build_flags_json {
     name: "build_flag_system_ext",
-    system_ext_specific: true,
+    system_ext_specific: false,
 }
 
 build_flags_json {
     name: "build_flag_product",
-    product_specific: true,
+    product_specific: false,
 }
 
 build_flags_json {
     name: "build_flag_vendor",
-    vendor: true,
+    vendor: false,
 }

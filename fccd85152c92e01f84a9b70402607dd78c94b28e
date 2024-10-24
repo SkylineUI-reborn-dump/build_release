@@ -16,6 +16,23 @@
       "message": "PTAL",
       "revId": "fccd85152c92e01f84a9b70402607dd78c94b28e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35a0cd13_668c9e5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-10-24T23:01:06Z",
+      "side": 1,
+      "message": "Hi, Morris\n\nThank you for taking your review of the 1st attempt of the emoji update.\nIt was reverted due to build breakage of the trunk build, not trunk_staging build.\nThis was because our lint tool was not ready for the misaligned Unicode version and emoji versions. (it is aligned on staging build but not aligned on the trunk build).\n\nNow I fixed the lint tools to work on the trunk environment.\n\nCan you take an owner review again?\n\nThank you.",
+      "revId": "fccd85152c92e01f84a9b70402607dd78c94b28e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

@@ -16,6 +16,24 @@
       "message": "@lamontjones@google.com @joeo@google.com this is the first pass at trying to reuse the build flag infra for these flags. Some potential alternatives:\n\n * A single build flag that is just a long list of the FEATURE:VERSION pairs.\n * A build flag that points to the `.xml` file that we want to use as the definitive definition of feature version + unavailable features. \n \n The main requirement is that this can vary at least on a per-form factor basis. Thoughts? Suggestions? Start with this and iterate? The codegen API surface is fairly stable now, so this is more of an implementation detail.",
       "revId": "af954a74bd5a1a36fc76426ae3b31f6a479eebde",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5c0fc3c_06225184",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-10-26T03:31:31Z",
+      "side": 1,
+      "message": "There\u0027s one other form of this that I considered + prototyped, which was a lot simpler, though wouldn\u0027t necessarily lend itself directly to eventual build flag codegen. That is, have two build flags that are just lists of compile-time enabled/disabled features. This gives us the \"ternary\" state without needing explicit per-feature defs:\n * `RELEASE_SYSTEM_FEATURES_ENABLED` (string_value, comma-separated features)\n * `RELEASE_SYSTEM_FEATURES_DISABLED` (string_value, comma-separated features)\n \nThis doesn\u0027t support per-feature versions, but honestly those are rarely used and not really needed for initial work. Though I don\u0027t know if this is any better than just piping XML-defined features through an intermediate var.",
+      "parentUuid": "433c9a38_14faf93d",
+      "revId": "af954a74bd5a1a36fc76426ae3b31f6a479eebde",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

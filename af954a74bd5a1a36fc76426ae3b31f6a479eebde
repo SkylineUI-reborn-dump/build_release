@@ -34,6 +34,24 @@
       "parentUuid": "433c9a38_14faf93d",
       "revId": "af954a74bd5a1a36fc76426ae3b31f6a479eebde",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0fa009b_248e8717",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-10-27T20:36:09Z",
+      "side": 1,
+      "message": "Sorry, I really should have put all this in a doc to make it easier to follow. Added a section in the design @ https://docs.google.com/document/d/1000XMQwhfv6goHcZI3SBwWju4mnHXoYSBX-Vs1mQzXQ/edit?tab\u003dt.0#bookmark\u003did.ujws6z3w05x0, PTAL for discussion.",
+      "parentUuid": "c5c0fc3c_06225184",
+      "revId": "af954a74bd5a1a36fc76426ae3b31f6a479eebde",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

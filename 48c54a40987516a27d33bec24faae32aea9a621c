@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6096a48_4dbea526",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1971940
+      },
+      "writtenOn": "2024-10-28T22:27:55Z",
+      "side": 1,
+      "message": "Also causing failures in b/376120434",
+      "revId": "48c54a40987516a27d33bec24faae32aea9a621c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -26,6 +26,13 @@ per-file aconfig/?p??/*,aconfig/?p??/*/*=rajukulkarni@google.com # For Nextfood 
 per-file aconfig/?p??/*,aconfig/?p??/*/*=ramprasathd@google.com # For Nextfood promotion requests
 per-file aconfig/?p??/*,aconfig/?p??/*/*=zoeyhsieh@google.com # For Nextfood promotion requests
 
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_SDK_EXTENSION_VERSION = file:platform/frameworks/base:/SDK_OWNERS
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_SDK_VERSION = file:platform/frameworks/base:/SDK_OWNERS
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_ALL_CODENAMES = file:platform/frameworks/base:/SDK_OWNERS
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES = file:platform/frameworks/base:/SDK_OWNERS
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_CODENAME = file:platform/frameworks/base:/SDK_OWNERS
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_KNOWN_CODENAMES = file:platform/frameworks/base:/SDK_OWNERS
+
 jham@google.com # emergency backup #{LAST_RESORT_SUGGESTION}
 amithds@google.com # emergency backup #{LAST_RESORT_SUGGESTION}
 rassb@google.com # emergency backup #{LAST_RESORT_SUGGESTION}

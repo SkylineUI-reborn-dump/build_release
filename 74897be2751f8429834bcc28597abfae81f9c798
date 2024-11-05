@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19c72257_9f804e1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-11-05T11:50:33Z",
+      "side": 1,
+      "message": "LGTM except for the namespace.",
+      "revId": "74897be2751f8429834bcc28597abfae81f9c798",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bc96d81_283ff649",
+        "filename": "flag_declarations/RELEASE_TARGET_JAVA_21.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-11-05T11:50:33Z",
+      "side": 1,
+      "message": "This should be a valid namespace (beceuase the workflow isn\u0027t MANUAL and you want Gantry to handle the flag rollout for you).",
+      "revId": "74897be2751f8429834bcc28597abfae81f9c798",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

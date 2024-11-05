@@ -51,6 +51,24 @@
       "parentUuid": "6bc96d81_283ff649",
       "revId": "74897be2751f8429834bcc28597abfae81f9c798",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c98ab8b_6f0d83b8",
+        "filename": "flag_declarations/RELEASE_TARGET_JAVA_21.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1937565
+      },
+      "writtenOn": "2024-11-05T13:45:59Z",
+      "side": 1,
+      "message": "If your team owns `core_libraries` I would go with that. `android_UNKNOWN` is a placeholder value used until Gantry adds support for build time flags, which it did earlier this week. We\u0027re not in the process of replacing `android_UNKNOWN` with actual values.",
+      "parentUuid": "f5621aac_f73a0c6e",
+      "revId": "74897be2751f8429834bcc28597abfae81f9c798",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

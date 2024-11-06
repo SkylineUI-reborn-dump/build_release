@@ -16,6 +16,24 @@
       "message": "As I understand it, the state of ap3a in aosp is frozen.  Deleting the flag declaration should happen on git_main, so that it can be coordinated with all of the other release configs.\n\n@iankaz@google.com to confirm.",
       "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52732fa9_6744a4fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1307230
+      },
+      "writtenOn": "2024-11-06T22:04:40Z",
+      "side": 1,
+      "message": "Correct, AP3A on AOSP should not be directly updated (except, as needed by AOSP release team when merging future releases). Updating on git_main (and updating the release branch if needed so AP4A gets these changes) is the correct protocol for eventually updating AOSP.",
+      "parentUuid": "4929b0bf_4e3dbeda",
+      "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

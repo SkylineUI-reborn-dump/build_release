@@ -52,6 +52,24 @@
       "parentUuid": "8c579fee_6f9d669d",
       "revId": "901076312701bc684c1fd6f803976e35414a59e2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92391b5e_e3872c8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882601
+      },
+      "writtenOn": "2024-11-06T16:44:13Z",
+      "side": 1,
+      "message": "Thanks! I just looked it over, but I had a few questions:\n\n1. Is the main tip to not include a file under `/flag_values`, so that Gantry can manage it entirely?\n2. I think the first few lines on my flag declaration match the example. Should I do something different for the `workflow` and `containers` fields?",
+      "parentUuid": "65d691f3_64939d40",
+      "revId": "901076312701bc684c1fd6f803976e35414a59e2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

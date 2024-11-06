@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1680a62f_a69149bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-06T18:04:50Z",
+      "side": 1,
+      "message": "This feels like it should be part of a larger topic, so that the release configs that need to have READ_WRITE flags don\u0027t immediately break.",
+      "revId": "ff3cc5797c7fcecc8c784e8a1749e4235e96339e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3397b36e_c41b430e",
+        "filename": "flag_declarations/RELEASE_ACONFIG_ALLOW_READ_WRITE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-06T18:04:50Z",
+      "side": 1,
+      "message": "At this point, I believe that there should be a valid namespace here.  Or is this flag going to be managed outside of automation (`workflow: MANUAL`?)",
+      "revId": "ff3cc5797c7fcecc8c784e8a1749e4235e96339e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b72e825d_f7ab0939",
+        "filename": "flag_declarations/RELEASE_ACONFIG_ALLOW_READ_WRITE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-06T18:04:50Z",
+      "side": 1,
+      "message": "This isn\u0027t strictly necessary, since the default value (empty string) is the same as `bool_value: false`.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "ff3cc5797c7fcecc8c784e8a1749e4235e96339e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

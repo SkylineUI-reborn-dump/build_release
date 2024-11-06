@@ -1,0 +1,4 @@
+name: "RELEASE_LIBPROCESSGROUP_MEMCGV2"
+value: {
+  bool_value: true
+}

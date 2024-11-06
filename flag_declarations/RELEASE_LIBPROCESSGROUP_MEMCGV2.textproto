@@ -1,0 +1,8 @@
+name: "RELEASE_LIBPROCESSGROUP_MEMCGV2"
+namespace: "android_UNKNOWN"
+description: "Changes the default cgroup memory controller version from v1 to v2. Vendor overrides of cgroups.json are still possible."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

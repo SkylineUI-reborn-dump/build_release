@@ -16,6 +16,24 @@
       "message": "Would it work for you to use Gantry to advance this flag instead? https://g3doc.corp.google.com/company/teams/android-core-experiments/trunk-stable/build-system-flags.md#gantry",
       "revId": "901076312701bc684c1fd6f803976e35414a59e2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c579fee_6f9d669d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882601
+      },
+      "writtenOn": "2024-11-06T16:27:06Z",
+      "side": 1,
+      "message": "Yes, Gantry would work best for us.\n\nWhat changes are required to use Gantry for this flag?",
+      "parentUuid": "aa34a851_8c6cd534",
+      "revId": "901076312701bc684c1fd6f803976e35414a59e2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

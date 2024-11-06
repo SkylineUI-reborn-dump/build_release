@@ -1,0 +1,11 @@
+name: "RELEASE_ACONFIG_ALLOW_READ_WRITE_ACCESS"
+namespace: "android_UNKNOWN"
+description: "If false, the build will fail if there are READ_WRITE overrides in the release configuration."
+value: {
+  bool_value: false
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

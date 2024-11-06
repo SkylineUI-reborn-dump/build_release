@@ -106,6 +106,24 @@
       "parentUuid": "73a72f8a_3355a8ba",
       "revId": "901076312701bc684c1fd6f803976e35414a59e2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5db765f_67dab4e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-11-06T21:45:49Z",
+      "side": 1,
+      "message": "Yep. If you only need it in internal, you should be able to use Gantry.  You\u0027ll still need a CL with just the declaration.  I\u0027m not sure why it\u0027s saying to upload it to AOSP.  I\u0027ll look into that, but go ahead and ignore that warning.",
+      "parentUuid": "ef4a9298_f714623b",
+      "revId": "901076312701bc684c1fd6f803976e35414a59e2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

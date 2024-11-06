@@ -70,6 +70,24 @@
       "parentUuid": "65d691f3_64939d40",
       "revId": "901076312701bc684c1fd6f803976e35414a59e2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73a72f8a_3355a8ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-11-06T21:35:13Z",
+      "side": 1,
+      "message": "Ugh. I\u0027ll answer your questions just FYI, but I just noticed that this CL is on aosp, which Gantry doesn\u0027t support yet.  It will eventually but for now, just keep doing the rollout CLs by hand. Sorry for the confusion.\n\n\u003e 1\nCorrect -- Gantry will do the CLs for the /flag_values files.  It\u0027ll enforce all the launch gates and whatnot correctly, whereas we manual reviewers are sort of all just doing our best to get it right. So in the future, you\u0027ll only need to do a CL for the declarations.\n\n\u003e 2\nYour declarations file looks correct.  The namespace is the name Gantry knows about. The container is the apex you\u0027re in, or system, vendor, etc. And this is a LAUNCH flag which means it\u0027s going from false --\u003e true via the trunk stable process. There are also PREBUILT flags for updating prebuilts to the next version via the trunk stable process.",
+      "parentUuid": "92391b5e_e3872c8f",
+      "revId": "901076312701bc684c1fd6f803976e35414a59e2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

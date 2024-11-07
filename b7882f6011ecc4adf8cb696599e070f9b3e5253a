@@ -34,6 +34,24 @@
       "parentUuid": "4929b0bf_4e3dbeda",
       "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5cec73f8_3e11879e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2024-11-07T04:04:11Z",
+      "side": 1,
+      "message": "Thanks! What about namespaces? \n\nI uploaded a CL that only change the appropriate namespace to the live flags (expected to use this flag for a long time for continuous update).\n\nhttps://android-review.git.corp.google.com/c/platform/build/release/+/3335798",
+      "parentUuid": "52732fa9_6744a4fe",
+      "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

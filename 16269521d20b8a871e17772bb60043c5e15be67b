@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e516cfa_7c0a0d9f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1942180
+      },
+      "writtenOn": "2024-11-07T03:37:23Z",
+      "side": 1,
+      "message": "Pretty sure it\u0027s failing since these flags also exist in vendor/google, but can\u0027t submit a change there as an external contributor.",
+      "revId": "16269521d20b8a871e17772bb60043c5e15be67b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -70,6 +70,24 @@
       "parentUuid": "5cec73f8_3e11879e",
       "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45b7e3eb_accf8be6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1307230
+      },
+      "writtenOn": "2024-11-07T16:39:50Z",
+      "side": 1,
+      "message": "Let me clarify, if you want to change the flag declaration\u0027s namespace that is fine, we just don\u0027t want changes to the AP3A values folder. I acknowledge it will change the namespace. That should be a separate change (in case we need to revert).",
+      "parentUuid": "ca869a3c_5e62cd25",
+      "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

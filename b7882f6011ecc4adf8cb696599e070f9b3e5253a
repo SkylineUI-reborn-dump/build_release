@@ -52,6 +52,24 @@
       "parentUuid": "52732fa9_6744a4fe",
       "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca869a3c_5e62cd25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1307230
+      },
+      "writtenOn": "2024-11-07T16:36:48Z",
+      "side": 1,
+      "message": "Even namespaces, AP3A\u0027s only usage in AOSP is to provide AOSP-first teams the ability to build something close to the AP3A official release with the additional changes landed on AOSP.",
+      "parentUuid": "5cec73f8_3e11879e",
+      "revId": "b7882f6011ecc4adf8cb696599e070f9b3e5253a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

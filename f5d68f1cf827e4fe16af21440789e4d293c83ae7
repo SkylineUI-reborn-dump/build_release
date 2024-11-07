@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28a0c250_07bb57a2",
+        "filename": "flag_declarations/RELEASE_SERVICE_WIFI_SPEED_PROFILE_ART_COMPILATION.textproto",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-11-07T17:57:48Z",
+      "side": 1,
+      "message": "Probably worth clarifying that this is for the WIFI module *service*.",
+      "range": {
+        "startLine": 3,
+        "startChar": 81,
+        "endLine": 3,
+        "endChar": 87
+      },
+      "revId": "f5d68f1cf827e4fe16af21440789e4d293c83ae7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

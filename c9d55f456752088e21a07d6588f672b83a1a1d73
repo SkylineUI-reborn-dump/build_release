@@ -16,6 +16,23 @@
       "message": "I am a host admin, not sure if that\u0027s why I was in OWNERs but I\u0027m not a good reviewer for this change.",
       "revId": "c9d55f456752088e21a07d6588f672b83a1a1d73",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65a792ef_3c977d61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1432579
+      },
+      "writtenOn": "2024-11-08T17:51:35Z",
+      "side": 1,
+      "message": "gentle ping",
+      "revId": "c9d55f456752088e21a07d6588f672b83a1a1d73",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

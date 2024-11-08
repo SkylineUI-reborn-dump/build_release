@@ -52,6 +52,24 @@
       "parentUuid": "c5c0fc3c_06225184",
       "revId": "af954a74bd5a1a36fc76426ae3b31f6a479eebde",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eb061fe_9c9c1f1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1064003
+      },
+      "writtenOn": "2024-11-08T00:13:33Z",
+      "side": 1,
+      "message": "Marking as resolved per offline discussion.",
+      "parentUuid": "e0fa009b_248e8717",
+      "revId": "af954a74bd5a1a36fc76426ae3b31f6a479eebde",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

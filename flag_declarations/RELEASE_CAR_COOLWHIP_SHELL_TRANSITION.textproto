@@ -1,0 +1,7 @@
+name: "RELEASE_CAR_COOLWHIP_SHELL_TRANSITION"
+namespace: "car_sys_exp"
+description: "b/376305363: Enable shell transition on coolwhip targets"
+workflow: LAUNCH
+containers: "system"
+containers: "system_ext"
+containers: "product"

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a03f1c1_9ced425b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1884045
+      },
+      "writtenOn": "2024-11-11T14:32:12Z",
+      "side": 1,
+      "message": "Hi Joe, we need to cherry-pick these flags to AOSP because we develop on AOSP. Could you please approve it?",
+      "revId": "c2596674203dfdbf6a891c35ddeef8568a3510cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

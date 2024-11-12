@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7eef5935_32434a6e",
+        "filename": "flag_declarations/RELEASE_ONDEVICE_INTELLIGENCE_MODULE.textproto",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-12T15:00:55Z",
+      "side": 1,
+      "message": "These lines are not strictly needed: the default value is the same as `bool_value: false` (empty string).",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 1
+      },
+      "revId": "abd2b8452b81f79722dffcd45a491473b2be91d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

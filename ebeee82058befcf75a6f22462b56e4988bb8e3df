@@ -41,6 +41,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3597a72d_d128cc35",
+        "filename": "backported_fixes/OWNERS",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1060286
+      },
+      "writtenOn": "2024-11-14T19:14:14Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "e3ac35d0_700a5862",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 6
+      },
+      "revId": "ebeee82058befcf75a6f22462b56e4988bb8e3df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e933b26d_6e5ca735",
@@ -58,6 +82,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff26e0e6_5f63bc37",
+        "filename": "backported_fixes/applied_fixes/ki350037023.txtpb",
+        "patchSetId": 8
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1060286
+      },
+      "writtenOn": "2024-11-14T19:14:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e933b26d_6e5ca735",
+      "revId": "ebeee82058befcf75a6f22462b56e4988bb8e3df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d8d8930f_cad2b85c",
@@ -71,6 +113,30 @@
       "writtenOn": "2024-11-14T17:36:08Z",
       "side": 1,
       "message": "typo?\n\"each item in the collection\"",
+      "range": {
+        "startLine": 43,
+        "startChar": 19,
+        "endLine": 43,
+        "endChar": 32
+      },
+      "revId": "ebeee82058befcf75a6f22462b56e4988bb8e3df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85927920_6ed45129",
+        "filename": "backported_fixes/src/java/com/android/release/backportedfixes/common/ClosableCollection.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1060286
+      },
+      "writtenOn": "2024-11-14T19:14:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8d8930f_cad2b85c",
       "range": {
         "startLine": 43,
         "startChar": 19,
@@ -104,6 +170,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "73e1d6a7_3c4523ee",
+        "filename": "backported_fixes/src/java/com/android/release/backportedfixes/common/ClosableCollection.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1060286
+      },
+      "writtenOn": "2024-11-14T19:14:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31844c74_7fbf945b",
+      "range": {
+        "startLine": 51,
+        "startChar": 11,
+        "endLine": 51,
+        "endChar": 16
+      },
+      "revId": "ebeee82058befcf75a6f22462b56e4988bb8e3df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e8b279ea_7481d441",
@@ -117,6 +207,30 @@
       "writtenOn": "2024-11-14T17:36:08Z",
       "side": 1,
       "message": "is there no isEmpty(), size(), or forEach() for ImmutableList.\n\nit feels like we\u0027re doing an unnecessary conversion between two lists types.",
+      "range": {
+        "startLine": 60,
+        "startChar": 11,
+        "endLine": 60,
+        "endChar": 32
+      },
+      "revId": "ebeee82058befcf75a6f22462b56e4988bb8e3df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "954b1650_b320fcb9",
+        "filename": "backported_fixes/src/java/com/android/release/backportedfixes/common/ClosableCollection.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1060286
+      },
+      "writtenOn": "2024-11-14T19:14:14Z",
+      "side": 1,
+      "message": "change to array list instead of immutable.",
+      "parentUuid": "e8b279ea_7481d441",
       "range": {
         "startLine": 60,
         "startChar": 11,

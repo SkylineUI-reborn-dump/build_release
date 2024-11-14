@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41a63b0f_e24856ec",
+        "filename": "release_configs/root.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-14T00:39:41Z",
+      "side": 1,
+      "message": "While not strictly true, this means that `root` won\u0027t inherit build variant overrides, which is the behavior that we want.",
+      "revId": "e8794b80abc85e1838cd2de4a59d34b7d4cc1e4b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

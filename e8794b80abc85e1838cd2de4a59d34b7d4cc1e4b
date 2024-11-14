@@ -50,6 +50,24 @@
       "message": "Will need to be the enum instead.",
       "revId": "e8794b80abc85e1838cd2de4a59d34b7d4cc1e4b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3406e820_f50b9014",
+        "filename": "release_configs/root.textproto",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2024-11-14T19:20:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2bd47ab8_be005f5d",
+      "revId": "e8794b80abc85e1838cd2de4a59d34b7d4cc1e4b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

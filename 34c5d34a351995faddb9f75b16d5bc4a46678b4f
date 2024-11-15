@@ -16,6 +16,24 @@
       "message": "Reopening the AOSP CL, since Gantry support for managing this flag seems limited.",
       "revId": "34c5d34a351995faddb9f75b16d5bc4a46678b4f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f646a29_dd927d9b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882601
+      },
+      "writtenOn": "2024-11-15T01:11:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "198c9c7e_428da538",
+      "revId": "34c5d34a351995faddb9f75b16d5bc4a46678b4f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

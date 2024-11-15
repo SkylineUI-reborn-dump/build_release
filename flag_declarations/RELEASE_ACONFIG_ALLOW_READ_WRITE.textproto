@@ -1,0 +1,11 @@
+name: "RELEASE_ACONFIG_ALLOW_READ_WRITE"
+namespace: "android_UNKNOWN"
+description: "If false, it is an error to set aconfig flag to read-write."
+value: {
+  bool_value: "true"
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

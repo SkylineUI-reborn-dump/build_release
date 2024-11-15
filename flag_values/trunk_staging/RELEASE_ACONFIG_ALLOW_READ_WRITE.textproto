@@ -1,0 +1,4 @@
+name: "RELEASE_ACONFIG_ALLOW_READ_WRITE"
+value: {
+  bool_value: true
+}

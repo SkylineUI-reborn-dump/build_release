@@ -1,4 +1,4 @@
-name: "RELEASE_AVF_ENABLE_VM_TO_SECURE_SERVICES_ALLOWLIST"
+name: "RELEASE_AVF_ENABLE_VM_TO_TEE_SERVICES_ALLOWLIST"
 namespace: "android_UNKNOWN"
 description: "Support for allowing some vms to access vendor smc services (b/360102915)"
 value: {

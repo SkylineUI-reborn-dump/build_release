@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79b1f01f_66623b0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882601
+      },
+      "writtenOn": "2024-11-20T23:38:05Z",
+      "side": 1,
+      "message": "Will merge ag/30512871 before this CL is submitted.\n\nThat should prevent the previous build failure.",
+      "revId": "8f347639404ad9582183a11d53d6c60fe2e9bc9c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a02f9253_94c6d084",
+        "filename": "flag_declarations/RELEASE_SERVICE_WIFI_SPEED_PROFILE_ART_COMPILATION.textproto",
+        "patchSetId": 7
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000678
+      },
+      "writtenOn": "2024-11-20T17:34:24Z",
+      "side": 1,
+      "message": "This should probably be in one of the ART namespaces, like art_performance or art_mainline.",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 27
+      },
+      "revId": "6d306901546d05171ac56bd4e2ed8520c8694048",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

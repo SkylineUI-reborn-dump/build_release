@@ -33,6 +33,23 @@
       "message": "question, since ag/30512871 is not going to reflect on aosp until it is officially pushed, is there any risks on AOSP build breaking on any target ?",
       "revId": "8f347639404ad9582183a11d53d6c60fe2e9bc9c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f020cb3_eb828112",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1143404
+      },
+      "writtenOn": "2024-11-21T17:38:49Z",
+      "side": 1,
+      "message": "unresolving",
+      "revId": "8f347639404ad9582183a11d53d6c60fe2e9bc9c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

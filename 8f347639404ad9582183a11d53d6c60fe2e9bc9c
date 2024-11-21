@@ -50,6 +50,42 @@
       "message": "unresolving",
       "revId": "8f347639404ad9582183a11d53d6c60fe2e9bc9c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b967a806_2c511c09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882601
+      },
+      "writtenOn": "2024-11-21T17:41:07Z",
+      "side": 1,
+      "message": "No, I don\u0027t think there\u0027s a risk. All of the mainline supplicant logic is in the internal branch.\n\nIn AOSP, we\u0027ll have a build flag that\u0027s enabled, but it won\u0027t apply to anything.",
+      "parentUuid": "628858c9_6c220e45",
+      "revId": "8f347639404ad9582183a11d53d6c60fe2e9bc9c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d09102f2_4d8b13f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882601
+      },
+      "writtenOn": "2024-11-21T17:41:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f020cb3_eb828112",
+      "revId": "8f347639404ad9582183a11d53d6c60fe2e9bc9c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
